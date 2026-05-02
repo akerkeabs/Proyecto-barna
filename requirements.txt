@@ -1,0 +1,8 @@
+pandas
+s3fs
+pyarrow
+SQLAlchemy
+psycopg2-binary
+mlflow
+scikit-learn
+apache-airflow-providers-postgres
