@@ -6,25 +6,23 @@ from airflow.operators.bash import BashOperator
 from sqlalchemy import create_engine
 from datetime import datetime, timedelta
 
-
-GITHUB_BASE_URL = "https://raw.githubusercontent.com/danielazrg11/Open-Data-II/main"
+GITHUB_BASE_URL = "https://raw.githubusercontent.com/USER_GIT/Open-Data-II/main"
 AÑOS_A_DESCARGAR = [2022, 2023, 2024, 2025]
 
-MINIO_ENDPOINT = "http://localhost:9000"
+# CAMBIO 1: Usar 'minio' en lugar de 'localhost'
+MINIO_ENDPOINT = "http://minio:9000"
 ACCESS_KEY = os.getenv("MINIO_ROOT_USER")
 SECRET_KEY = os.getenv("MINIO_ROOT_PASSWORD")
 BUCKET_NAME = os.getenv("MINIO_BUCKET_NAME")
 
+# (Nota: Recuerda que lo ideal aquí sería usar PostgresHook en lugar de os.getenv)
 POSTGRES_CREDS = f"postgresql+psycopg2://{os.getenv('POSTGRES_USER')}:{os.getenv('POSTGRES_PASSWORD')}@postgres:5432/{os.getenv('POSTGRES_DB')}"
 
-# EXTRACCIÓN Y CARGA (ELT)
 
 def extract_and_load():
     print("1. Descargando CSVs de GitHub...")
-
     lista_dfs = []
 
-    # Iteración por años
     for año in AÑOS_A_DESCARGAR:
         url = f"{GITHUB_BASE_URL}/{año}_accidents_causa_conductor_gu_bcn_.csv"
         print(f"Descargando datos de {año}...")
@@ -34,26 +32,23 @@ def extract_and_load():
         except Exception as e:
             print(f"Error descargando el año {año}: {e}")
 
-    # Concatenamos todos los DataFrames en uno solo
     df = pd.concat(lista_dfs, ignore_index=True)
-
-    # Estandarizamos las columnas (minúsculas, sin espacios)
     df.columns = [col.strip().lower() for col in df.columns]
 
-    # Añadimos la fecha exacta de ingesta
     fecha_hoy = datetime.now()
     df['etl_fecha_ingesta'] = fecha_hoy
-
     print(f"Se agruparon {len(df)} filas en total.")
 
     # ---------------------------------------------------------
     # BACKUP EN MINIO (Data Lake)
     # ---------------------------------------------------------
     print("2. Guardando copia de seguridad en MinIO...")
+
+    # CAMBIO 2: Usar las variables correctas que definiste arriba
     storage_options = {
-        "key": MINIO_USER,
-        "secret": MINIO_PASS,
-        "client_kwargs": {"endpoint_url": MINIO_URL}
+        "key": ACCESS_KEY,
+        "secret": SECRET_KEY,
+        "client_kwargs": {"endpoint_url": MINIO_ENDPOINT}
     }
 
     nombre_archivo = f"accidentes_historico_raw_{fecha_hoy.strftime('%Y%m%d')}.parquet"
