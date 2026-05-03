@@ -4,7 +4,7 @@ import s3fs
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from datetime import datetime, timedelta
 
 USER_GIT = os.getenv("USER_GIT")
@@ -74,6 +74,11 @@ def extract_and_load():
     # ---------------------------------------------------------
     print("3. Cargando en PostgreSQL...")
     engine = create_engine(POSTGRES_CREDS)
+
+    with engine.begin() as conn:
+        conn.execute(text("DROP TABLE IF EXISTS stg_accidentes_github CASCADE;"))
+        conn.execute(text("DROP TYPE IF EXISTS stg_accidentes_github CASCADE;"))
+
     df.to_sql('stg_accidentes_github', engine, if_exists='replace', index=False)
     print("Carga en BD finalizada.")
 
