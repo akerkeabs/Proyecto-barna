@@ -1,21 +1,21 @@
 import os
 import pandas as pd
+import s3fs
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from sqlalchemy import create_engine
 from datetime import datetime, timedelta
 
-GITHUB_BASE_URL = "https://raw.githubusercontent.com/USER_GIT/Open-Data-II/main"
-AÑOS_A_DESCARGAR = [2022, 2023, 2024, 2025]
+USER_GIT = os.getenv("USER_GIT")
+GITHUB_BASE_URL = f"https://raw.githubusercontent.com/{USER_GIT}/Open-Data-II/main"
+YEARS_TO_DOWNLOAD = [2022, 2023, 2024, 2025]
 
-# CAMBIO 1: Usar 'minio' en lugar de 'localhost'
 MINIO_ENDPOINT = "http://minio:9000"
 ACCESS_KEY = os.getenv("MINIO_ROOT_USER")
 SECRET_KEY = os.getenv("MINIO_ROOT_PASSWORD")
 BUCKET_NAME = os.getenv("MINIO_BUCKET_NAME")
 
-# (Nota: Recuerda que lo ideal aquí sería usar PostgresHook en lugar de os.getenv)
 POSTGRES_CREDS = f"postgresql+psycopg2://{os.getenv('POSTGRES_USER')}:{os.getenv('POSTGRES_PASSWORD')}@postgres:5432/{os.getenv('POSTGRES_DB')}"
 
 
@@ -23,36 +23,48 @@ def extract_and_load():
     print("1. Descargando CSVs de GitHub...")
     lista_dfs = []
 
-    for año in AÑOS_A_DESCARGAR:
-        url = f"{GITHUB_BASE_URL}/{año}_accidents_causa_conductor_gu_bcn_.csv"
-        print(f"Descargando datos de {año}...")
+    for year in YEARS_TO_DOWNLOAD:
+        url = f"{GITHUB_BASE_URL}/{year}_accidents_causa_conductor_gu_bcn.csv"
+        print(f"Descargando datos de {year}...")
         try:
             df_temp = pd.read_csv(url)
+            df_temp.columns = [str(col).strip().lower() for col in df_temp.columns]
             lista_dfs.append(df_temp)
         except Exception as e:
-            print(f"Error descargando el año {año}: {e}")
+            print(f"Error descargando el year {year}: {e}")
 
     df = pd.concat(lista_dfs, ignore_index=True)
-    df.columns = [col.strip().lower() for col in df.columns]
+    df = df.loc[:, ~df.columns.duplicated()]
 
-    fecha_hoy = datetime.now()
-    df['etl_fecha_ingesta'] = fecha_hoy
+    today_date = datetime.now()
+    df['etl_fecha_ingesta'] = today_date
     print(f"Se agruparon {len(df)} filas en total.")
 
     # ---------------------------------------------------------
     # BACKUP EN MINIO (Data Lake)
     # ---------------------------------------------------------
     print("2. Guardando copia de seguridad en MinIO...")
+    fs = s3fs.S3FileSystem(
+        key=ACCESS_KEY,
+        secret=SECRET_KEY,
+        client_kwargs={"endpoint_url": MINIO_ENDPOINT}
+    )
 
-    # CAMBIO 2: Usar las variables correctas que definiste arriba
+    # Si el bucket existe guarda, si no, lo creamos
+    if not fs.exists(BUCKET_NAME):
+        print(f"El bucket '{BUCKET_NAME}' no existe. Creando...")
+        fs.mkdir(BUCKET_NAME)
+    else:
+        print(f"El bucket '{BUCKET_NAME}' ya existe. Continua")
+
     storage_options = {
         "key": ACCESS_KEY,
         "secret": SECRET_KEY,
         "client_kwargs": {"endpoint_url": MINIO_ENDPOINT}
     }
 
-    nombre_archivo = f"accidentes_historico_raw_{fecha_hoy.strftime('%Y%m%d')}.parquet"
-    ruta_s3 = f"s3://{BUCKET_NAME}/raw/{nombre_archivo}"
+    file_name = f"accidentes_historico_raw_{today_date.strftime('%Y%m%d')}.parquet"
+    ruta_s3 = f"s3://{BUCKET_NAME}/raw/{file_name}"
 
     df.to_parquet(ruta_s3, storage_options=storage_options, engine='pyarrow')
     print(f"Backup guardado en: {ruta_s3}")
@@ -78,7 +90,7 @@ default_args = {
 with DAG(
         'ingesta_github_accidentes',
         default_args=default_args,
-        schedule_interval='@daily',
+        schedule='@daily',
         start_date=datetime(2023, 10, 1),
         catchup=False,
 ) as dag:
