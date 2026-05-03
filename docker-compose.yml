@@ -67,7 +67,7 @@ x-airflow-common:
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
     # WARNING: Use _PIP_ADDITIONAL_REQUIREMENTS option ONLY for a quick checks
     # for other purpose (development, test and especially production usage) build/extend Airflow image.
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    _PIP_ADDITIONAL_REQUIREMENTS: 'dbt-postgres'
     # The following line can be used to set a custom config file, stored in the local config folder
     AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
     USER_GIT: ${USER_GIT}
@@ -82,6 +82,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - ./dbt_project:/opt/airflow/dbt_project
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -94,7 +95,7 @@ services:
     env_file:
         - .env
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
     healthcheck:
@@ -103,6 +104,14 @@ services:
       retries: 5
       start_period: 5s
     restart: always
+  pgadmin:
+    container_name: pgadmin4_container
+    image: dpage/pgadmin4
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "5050:80"
 
   minio:
     image: minio/minio
