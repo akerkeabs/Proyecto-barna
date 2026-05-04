@@ -1,0 +1,1001 @@
+Codi_districte,Numero_incidents_GUB,Nom_districte,NK_Any,Nom_mes,Nom_barri,Descripcio_Incident,Mes_any,Codi_barri,Codi_Incident,_id,last_update
+,2,,2025,gener,,INCENDIS,1,,0,1,2026-05-04 15:07:13.780467
+,8,,2025,febrer,,INCENDIS,2,,0,2,2026-05-04 15:07:13.780467
+,1,,2025,març,,INCENDIS,3,,0,3,2026-05-04 15:07:13.780467
+,4,,2025,abril,,INCENDIS,4,,0,4,2026-05-04 15:07:13.780467
+,3,,2025,maig,,INCENDIS,5,,0,5,2026-05-04 15:07:13.780467
+,12,,2025,juny,,INCENDIS,6,,0,6,2026-05-04 15:07:13.780467
+,3,,2025,juliol,,INCENDIS,7,,0,7,2026-05-04 15:07:13.780467
+,5,,2025,agost,,INCENDIS,8,,0,8,2026-05-04 15:07:13.780467
+,3,,2025,setembre,,INCENDIS,9,,0,9,2026-05-04 15:07:13.780467
+,3,,2025,novembre,,INCENDIS,11,,0,10,2026-05-04 15:07:13.780467
+,3,,2025,desembre,,INCENDIS,12,,0,11,2026-05-04 15:07:13.780467
+1,22,Ciutat Vella,2025,gener,el Raval,INCENDIS,1,1,0,12,2026-05-04 15:07:13.780467
+1,22,Ciutat Vella,2025,febrer,el Raval,INCENDIS,2,1,0,13,2026-05-04 15:07:13.780467
+1,20,Ciutat Vella,2025,març,el Raval,INCENDIS,3,1,0,14,2026-05-04 15:07:13.780467
+1,25,Ciutat Vella,2025,abril,el Raval,INCENDIS,4,1,0,15,2026-05-04 15:07:13.780467
+1,25,Ciutat Vella,2025,maig,el Raval,INCENDIS,5,1,0,16,2026-05-04 15:07:13.780467
+1,27,Ciutat Vella,2025,juny,el Raval,INCENDIS,6,1,0,17,2026-05-04 15:07:13.780467
+1,31,Ciutat Vella,2025,juliol,el Raval,INCENDIS,7,1,0,18,2026-05-04 15:07:13.780467
+1,32,Ciutat Vella,2025,agost,el Raval,INCENDIS,8,1,0,19,2026-05-04 15:07:13.780467
+1,29,Ciutat Vella,2025,setembre,el Raval,INCENDIS,9,1,0,20,2026-05-04 15:07:13.780467
+1,25,Ciutat Vella,2025,octubre,el Raval,INCENDIS,10,1,0,21,2026-05-04 15:07:13.780467
+1,31,Ciutat Vella,2025,novembre,el Raval,INCENDIS,11,1,0,22,2026-05-04 15:07:13.780467
+1,22,Ciutat Vella,2025,desembre,el Raval,INCENDIS,12,1,0,23,2026-05-04 15:07:13.780467
+1,15,Ciutat Vella,2025,gener,el Barri Gòtic,INCENDIS,1,2,0,24,2026-05-04 15:07:13.780467
+1,9,Ciutat Vella,2025,febrer,el Barri Gòtic,INCENDIS,2,2,0,25,2026-05-04 15:07:13.780467
+1,16,Ciutat Vella,2025,març,el Barri Gòtic,INCENDIS,3,2,0,26,2026-05-04 15:07:13.780467
+1,11,Ciutat Vella,2025,abril,el Barri Gòtic,INCENDIS,4,2,0,27,2026-05-04 15:07:13.780467
+1,16,Ciutat Vella,2025,maig,el Barri Gòtic,INCENDIS,5,2,0,28,2026-05-04 15:07:13.780467
+1,13,Ciutat Vella,2025,juny,el Barri Gòtic,INCENDIS,6,2,0,29,2026-05-04 15:07:13.780467
+1,8,Ciutat Vella,2025,juliol,el Barri Gòtic,INCENDIS,7,2,0,30,2026-05-04 15:07:13.780467
+1,13,Ciutat Vella,2025,agost,el Barri Gòtic,INCENDIS,8,2,0,31,2026-05-04 15:07:13.780467
+1,8,Ciutat Vella,2025,setembre,el Barri Gòtic,INCENDIS,9,2,0,32,2026-05-04 15:07:13.780467
+1,6,Ciutat Vella,2025,octubre,el Barri Gòtic,INCENDIS,10,2,0,33,2026-05-04 15:07:13.780467
+1,8,Ciutat Vella,2025,novembre,el Barri Gòtic,INCENDIS,11,2,0,34,2026-05-04 15:07:13.780467
+1,14,Ciutat Vella,2025,desembre,el Barri Gòtic,INCENDIS,12,2,0,35,2026-05-04 15:07:13.780467
+1,7,Ciutat Vella,2025,gener,la Barceloneta,INCENDIS,1,3,0,36,2026-05-04 15:07:13.780467
+1,4,Ciutat Vella,2025,febrer,la Barceloneta,INCENDIS,2,3,0,37,2026-05-04 15:07:13.780467
+1,9,Ciutat Vella,2025,març,la Barceloneta,INCENDIS,3,3,0,38,2026-05-04 15:07:13.780467
+1,7,Ciutat Vella,2025,abril,la Barceloneta,INCENDIS,4,3,0,39,2026-05-04 15:07:13.780467
+1,6,Ciutat Vella,2025,maig,la Barceloneta,INCENDIS,5,3,0,40,2026-05-04 15:07:13.780467
+1,11,Ciutat Vella,2025,juny,la Barceloneta,INCENDIS,6,3,0,41,2026-05-04 15:07:13.780467
+1,12,Ciutat Vella,2025,juliol,la Barceloneta,INCENDIS,7,3,0,42,2026-05-04 15:07:13.780467
+1,6,Ciutat Vella,2025,agost,la Barceloneta,INCENDIS,8,3,0,43,2026-05-04 15:07:13.780467
+1,6,Ciutat Vella,2025,setembre,la Barceloneta,INCENDIS,9,3,0,44,2026-05-04 15:07:13.780467
+1,8,Ciutat Vella,2025,octubre,la Barceloneta,INCENDIS,10,3,0,45,2026-05-04 15:07:13.780467
+1,12,Ciutat Vella,2025,novembre,la Barceloneta,INCENDIS,11,3,0,46,2026-05-04 15:07:13.780467
+1,3,Ciutat Vella,2025,desembre,la Barceloneta,INCENDIS,12,3,0,47,2026-05-04 15:07:13.780467
+1,5,Ciutat Vella,2025,gener,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,1,4,0,48,2026-05-04 15:07:13.780467
+1,6,Ciutat Vella,2025,febrer,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,2,4,0,49,2026-05-04 15:07:13.780467
+1,6,Ciutat Vella,2025,març,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,3,4,0,50,2026-05-04 15:07:13.780467
+1,7,Ciutat Vella,2025,abril,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,4,4,0,51,2026-05-04 15:07:13.780467
+1,15,Ciutat Vella,2025,maig,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,5,4,0,52,2026-05-04 15:07:13.780467
+1,7,Ciutat Vella,2025,juny,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,6,4,0,53,2026-05-04 15:07:13.780467
+1,12,Ciutat Vella,2025,juliol,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,7,4,0,54,2026-05-04 15:07:13.780467
+1,6,Ciutat Vella,2025,agost,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,8,4,0,55,2026-05-04 15:07:13.780467
+1,13,Ciutat Vella,2025,setembre,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,9,4,0,56,2026-05-04 15:07:13.780467
+1,3,Ciutat Vella,2025,octubre,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,10,4,0,57,2026-05-04 15:07:13.780467
+1,10,Ciutat Vella,2025,novembre,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,11,4,0,58,2026-05-04 15:07:13.780467
+1,11,Ciutat Vella,2025,desembre,"Sant Pere, Santa Caterina i la Ribera",INCENDIS,12,4,0,59,2026-05-04 15:07:13.780467
+2,11,Eixample,2025,gener,el Fort Pienc,INCENDIS,1,5,0,60,2026-05-04 15:07:13.780467
+2,14,Eixample,2025,febrer,el Fort Pienc,INCENDIS,2,5,0,61,2026-05-04 15:07:13.780467
+2,17,Eixample,2025,març,el Fort Pienc,INCENDIS,3,5,0,62,2026-05-04 15:07:13.780467
+2,8,Eixample,2025,abril,el Fort Pienc,INCENDIS,4,5,0,63,2026-05-04 15:07:13.780467
+2,8,Eixample,2025,maig,el Fort Pienc,INCENDIS,5,5,0,64,2026-05-04 15:07:13.780467
+2,16,Eixample,2025,juny,el Fort Pienc,INCENDIS,6,5,0,65,2026-05-04 15:07:13.780467
+2,12,Eixample,2025,juliol,el Fort Pienc,INCENDIS,7,5,0,66,2026-05-04 15:07:13.780467
+2,5,Eixample,2025,agost,el Fort Pienc,INCENDIS,8,5,0,67,2026-05-04 15:07:13.780467
+2,9,Eixample,2025,setembre,el Fort Pienc,INCENDIS,9,5,0,68,2026-05-04 15:07:13.780467
+2,9,Eixample,2025,octubre,el Fort Pienc,INCENDIS,10,5,0,69,2026-05-04 15:07:13.780467
+2,10,Eixample,2025,novembre,el Fort Pienc,INCENDIS,11,5,0,70,2026-05-04 15:07:13.780467
+2,3,Eixample,2025,desembre,el Fort Pienc,INCENDIS,12,5,0,71,2026-05-04 15:07:13.780467
+2,13,Eixample,2025,gener,la Sagrada Família,INCENDIS,1,6,0,72,2026-05-04 15:07:13.780467
+2,8,Eixample,2025,febrer,la Sagrada Família,INCENDIS,2,6,0,73,2026-05-04 15:07:13.780467
+2,10,Eixample,2025,març,la Sagrada Família,INCENDIS,3,6,0,74,2026-05-04 15:07:13.780467
+2,20,Eixample,2025,abril,la Sagrada Família,INCENDIS,4,6,0,75,2026-05-04 15:07:13.780467
+2,6,Eixample,2025,maig,la Sagrada Família,INCENDIS,5,6,0,76,2026-05-04 15:07:13.780467
+2,17,Eixample,2025,juny,la Sagrada Família,INCENDIS,6,6,0,77,2026-05-04 15:07:13.780467
+2,21,Eixample,2025,juliol,la Sagrada Família,INCENDIS,7,6,0,78,2026-05-04 15:07:13.780467
+2,11,Eixample,2025,agost,la Sagrada Família,INCENDIS,8,6,0,79,2026-05-04 15:07:13.780467
+2,15,Eixample,2025,setembre,la Sagrada Família,INCENDIS,9,6,0,80,2026-05-04 15:07:13.780467
+2,6,Eixample,2025,octubre,la Sagrada Família,INCENDIS,10,6,0,81,2026-05-04 15:07:13.780467
+2,15,Eixample,2025,novembre,la Sagrada Família,INCENDIS,11,6,0,82,2026-05-04 15:07:13.780467
+2,9,Eixample,2025,desembre,la Sagrada Família,INCENDIS,12,6,0,83,2026-05-04 15:07:13.780467
+2,38,Eixample,2025,gener,la Dreta de l'Eixample,INCENDIS,1,7,0,84,2026-05-04 15:07:13.780467
+2,20,Eixample,2025,febrer,la Dreta de l'Eixample,INCENDIS,2,7,0,85,2026-05-04 15:07:13.780467
+2,34,Eixample,2025,març,la Dreta de l'Eixample,INCENDIS,3,7,0,86,2026-05-04 15:07:13.780467
+2,31,Eixample,2025,abril,la Dreta de l'Eixample,INCENDIS,4,7,0,87,2026-05-04 15:07:13.780467
+2,24,Eixample,2025,maig,la Dreta de l'Eixample,INCENDIS,5,7,0,88,2026-05-04 15:07:13.780467
+2,31,Eixample,2025,juny,la Dreta de l'Eixample,INCENDIS,6,7,0,89,2026-05-04 15:07:13.780467
+2,40,Eixample,2025,juliol,la Dreta de l'Eixample,INCENDIS,7,7,0,90,2026-05-04 15:07:13.780467
+2,19,Eixample,2025,agost,la Dreta de l'Eixample,INCENDIS,8,7,0,91,2026-05-04 15:07:13.780467
+2,15,Eixample,2025,setembre,la Dreta de l'Eixample,INCENDIS,9,7,0,92,2026-05-04 15:07:13.780467
+2,17,Eixample,2025,octubre,la Dreta de l'Eixample,INCENDIS,10,7,0,93,2026-05-04 15:07:13.780467
+2,16,Eixample,2025,novembre,la Dreta de l'Eixample,INCENDIS,11,7,0,94,2026-05-04 15:07:13.780467
+2,18,Eixample,2025,desembre,la Dreta de l'Eixample,INCENDIS,12,7,0,95,2026-05-04 15:07:13.780467
+2,19,Eixample,2025,gener,l'Antiga Esquerra de l'Eixample,INCENDIS,1,8,0,96,2026-05-04 15:07:13.780467
+2,8,Eixample,2025,febrer,l'Antiga Esquerra de l'Eixample,INCENDIS,2,8,0,97,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,desembre,la Salut,INCENDIS,12,30,0,361,2026-05-04 15:07:13.780467
+2,18,Eixample,2025,març,l'Antiga Esquerra de l'Eixample,INCENDIS,3,8,0,98,2026-05-04 15:07:13.780467
+2,10,Eixample,2025,abril,l'Antiga Esquerra de l'Eixample,INCENDIS,4,8,0,99,2026-05-04 15:07:13.780467
+2,13,Eixample,2025,maig,l'Antiga Esquerra de l'Eixample,INCENDIS,5,8,0,100,2026-05-04 15:07:13.780467
+2,24,Eixample,2025,juny,l'Antiga Esquerra de l'Eixample,INCENDIS,6,8,0,101,2026-05-04 15:07:13.780467
+2,15,Eixample,2025,juliol,l'Antiga Esquerra de l'Eixample,INCENDIS,7,8,0,102,2026-05-04 15:07:13.780467
+2,16,Eixample,2025,agost,l'Antiga Esquerra de l'Eixample,INCENDIS,8,8,0,103,2026-05-04 15:07:13.780467
+2,16,Eixample,2025,setembre,l'Antiga Esquerra de l'Eixample,INCENDIS,9,8,0,104,2026-05-04 15:07:13.780467
+2,24,Eixample,2025,octubre,l'Antiga Esquerra de l'Eixample,INCENDIS,10,8,0,105,2026-05-04 15:07:13.780467
+2,13,Eixample,2025,novembre,l'Antiga Esquerra de l'Eixample,INCENDIS,11,8,0,106,2026-05-04 15:07:13.780467
+2,12,Eixample,2025,desembre,l'Antiga Esquerra de l'Eixample,INCENDIS,12,8,0,107,2026-05-04 15:07:13.780467
+2,27,Eixample,2025,gener,la Nova Esquerra de l'Eixample,INCENDIS,1,9,0,108,2026-05-04 15:07:13.780467
+2,20,Eixample,2025,febrer,la Nova Esquerra de l'Eixample,INCENDIS,2,9,0,109,2026-05-04 15:07:13.780467
+2,18,Eixample,2025,març,la Nova Esquerra de l'Eixample,INCENDIS,3,9,0,110,2026-05-04 15:07:13.780467
+2,16,Eixample,2025,abril,la Nova Esquerra de l'Eixample,INCENDIS,4,9,0,111,2026-05-04 15:07:13.780467
+2,15,Eixample,2025,maig,la Nova Esquerra de l'Eixample,INCENDIS,5,9,0,112,2026-05-04 15:07:13.780467
+2,33,Eixample,2025,juny,la Nova Esquerra de l'Eixample,INCENDIS,6,9,0,113,2026-05-04 15:07:13.780467
+2,12,Eixample,2025,juliol,la Nova Esquerra de l'Eixample,INCENDIS,7,9,0,114,2026-05-04 15:07:13.780467
+2,20,Eixample,2025,agost,la Nova Esquerra de l'Eixample,INCENDIS,8,9,0,115,2026-05-04 15:07:13.780467
+2,10,Eixample,2025,setembre,la Nova Esquerra de l'Eixample,INCENDIS,9,9,0,116,2026-05-04 15:07:13.780467
+2,17,Eixample,2025,octubre,la Nova Esquerra de l'Eixample,INCENDIS,10,9,0,117,2026-05-04 15:07:13.780467
+2,19,Eixample,2025,novembre,la Nova Esquerra de l'Eixample,INCENDIS,11,9,0,118,2026-05-04 15:07:13.780467
+2,8,Eixample,2025,desembre,la Nova Esquerra de l'Eixample,INCENDIS,12,9,0,119,2026-05-04 15:07:13.780467
+2,20,Eixample,2025,gener,Sant Antoni,INCENDIS,1,10,0,120,2026-05-04 15:07:13.780467
+2,19,Eixample,2025,febrer,Sant Antoni,INCENDIS,2,10,0,121,2026-05-04 15:07:13.780467
+2,9,Eixample,2025,març,Sant Antoni,INCENDIS,3,10,0,122,2026-05-04 15:07:13.780467
+2,18,Eixample,2025,abril,Sant Antoni,INCENDIS,4,10,0,123,2026-05-04 15:07:13.780467
+2,17,Eixample,2025,maig,Sant Antoni,INCENDIS,5,10,0,124,2026-05-04 15:07:13.780467
+2,32,Eixample,2025,juny,Sant Antoni,INCENDIS,6,10,0,125,2026-05-04 15:07:13.780467
+2,28,Eixample,2025,juliol,Sant Antoni,INCENDIS,7,10,0,126,2026-05-04 15:07:13.780467
+2,21,Eixample,2025,agost,Sant Antoni,INCENDIS,8,10,0,127,2026-05-04 15:07:13.780467
+2,19,Eixample,2025,setembre,Sant Antoni,INCENDIS,9,10,0,128,2026-05-04 15:07:13.780467
+2,25,Eixample,2025,octubre,Sant Antoni,INCENDIS,10,10,0,129,2026-05-04 15:07:13.780467
+2,42,Eixample,2025,novembre,Sant Antoni,INCENDIS,11,10,0,130,2026-05-04 15:07:13.780467
+2,26,Eixample,2025,desembre,Sant Antoni,INCENDIS,12,10,0,131,2026-05-04 15:07:13.780467
+3,18,Sants-Montjuïc,2025,gener,el Poble Sec,INCENDIS,1,11,0,132,2026-05-04 15:07:13.780467
+3,23,Sants-Montjuïc,2025,febrer,el Poble Sec,INCENDIS,2,11,0,133,2026-05-04 15:07:13.780467
+3,15,Sants-Montjuïc,2025,març,el Poble Sec,INCENDIS,3,11,0,134,2026-05-04 15:07:13.780467
+3,18,Sants-Montjuïc,2025,abril,el Poble Sec,INCENDIS,4,11,0,135,2026-05-04 15:07:13.780467
+3,19,Sants-Montjuïc,2025,maig,el Poble Sec,INCENDIS,5,11,0,136,2026-05-04 15:07:13.780467
+3,33,Sants-Montjuïc,2025,juny,el Poble Sec,INCENDIS,6,11,0,137,2026-05-04 15:07:13.780467
+3,30,Sants-Montjuïc,2025,juliol,el Poble Sec,INCENDIS,7,11,0,138,2026-05-04 15:07:13.780467
+3,30,Sants-Montjuïc,2025,agost,el Poble Sec,INCENDIS,8,11,0,139,2026-05-04 15:07:13.780467
+3,17,Sants-Montjuïc,2025,setembre,el Poble Sec,INCENDIS,9,11,0,140,2026-05-04 15:07:13.780467
+3,22,Sants-Montjuïc,2025,octubre,el Poble Sec,INCENDIS,10,11,0,141,2026-05-04 15:07:13.780467
+3,20,Sants-Montjuïc,2025,novembre,el Poble Sec,INCENDIS,11,11,0,142,2026-05-04 15:07:13.780467
+3,27,Sants-Montjuïc,2025,desembre,el Poble Sec,INCENDIS,12,11,0,143,2026-05-04 15:07:13.780467
+3,8,Sants-Montjuïc,2025,gener,la Marina del Prat Vermell,INCENDIS,1,12,0,144,2026-05-04 15:07:13.780467
+3,8,Sants-Montjuïc,2025,febrer,la Marina del Prat Vermell,INCENDIS,2,12,0,145,2026-05-04 15:07:13.780467
+3,10,Sants-Montjuïc,2025,març,la Marina del Prat Vermell,INCENDIS,3,12,0,146,2026-05-04 15:07:13.780467
+3,10,Sants-Montjuïc,2025,abril,la Marina del Prat Vermell,INCENDIS,4,12,0,147,2026-05-04 15:07:13.780467
+3,13,Sants-Montjuïc,2025,maig,la Marina del Prat Vermell,INCENDIS,5,12,0,148,2026-05-04 15:07:13.780467
+3,19,Sants-Montjuïc,2025,juny,la Marina del Prat Vermell,INCENDIS,6,12,0,149,2026-05-04 15:07:13.780467
+3,17,Sants-Montjuïc,2025,juliol,la Marina del Prat Vermell,INCENDIS,7,12,0,150,2026-05-04 15:07:13.780467
+3,8,Sants-Montjuïc,2025,agost,la Marina del Prat Vermell,INCENDIS,8,12,0,151,2026-05-04 15:07:13.780467
+3,4,Sants-Montjuïc,2025,setembre,la Marina del Prat Vermell,INCENDIS,9,12,0,152,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,octubre,la Marina del Prat Vermell,INCENDIS,10,12,0,153,2026-05-04 15:07:13.780467
+3,7,Sants-Montjuïc,2025,novembre,la Marina del Prat Vermell,INCENDIS,11,12,0,154,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,gener,Can Peguera,INCENDIS,1,47,0,539,2026-05-04 15:07:13.780467
+3,14,Sants-Montjuïc,2025,desembre,la Marina del Prat Vermell,INCENDIS,12,12,0,155,2026-05-04 15:07:13.780467
+3,9,Sants-Montjuïc,2025,gener,la Marina de Port,INCENDIS,1,13,0,156,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,febrer,la Marina de Port,INCENDIS,2,13,0,157,2026-05-04 15:07:13.780467
+3,9,Sants-Montjuïc,2025,març,la Marina de Port,INCENDIS,3,13,0,158,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,abril,la Marina de Port,INCENDIS,4,13,0,159,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,maig,la Marina de Port,INCENDIS,5,13,0,160,2026-05-04 15:07:13.780467
+3,23,Sants-Montjuïc,2025,juny,la Marina de Port,INCENDIS,6,13,0,161,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,juliol,la Marina de Port,INCENDIS,7,13,0,162,2026-05-04 15:07:13.780467
+3,7,Sants-Montjuïc,2025,agost,la Marina de Port,INCENDIS,8,13,0,163,2026-05-04 15:07:13.780467
+3,7,Sants-Montjuïc,2025,setembre,la Marina de Port,INCENDIS,9,13,0,164,2026-05-04 15:07:13.780467
+3,12,Sants-Montjuïc,2025,octubre,la Marina de Port,INCENDIS,10,13,0,165,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,novembre,la Marina de Port,INCENDIS,11,13,0,166,2026-05-04 15:07:13.780467
+3,4,Sants-Montjuïc,2025,desembre,la Marina de Port,INCENDIS,12,13,0,167,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,gener,la Font de la Guatlla,INCENDIS,1,14,0,168,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,febrer,la Font de la Guatlla,INCENDIS,2,14,0,169,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,març,la Font de la Guatlla,INCENDIS,3,14,0,170,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,maig,la Font de la Guatlla,INCENDIS,5,14,0,171,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,juny,la Font de la Guatlla,INCENDIS,6,14,0,172,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,juliol,la Font de la Guatlla,INCENDIS,7,14,0,173,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,agost,la Font de la Guatlla,INCENDIS,8,14,0,174,2026-05-04 15:07:13.780467
+3,4,Sants-Montjuïc,2025,setembre,la Font de la Guatlla,INCENDIS,9,14,0,175,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,octubre,la Font de la Guatlla,INCENDIS,10,14,0,176,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,desembre,la Font de la Guatlla,INCENDIS,12,14,0,177,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,gener,Hostafrancs,INCENDIS,1,15,0,178,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,febrer,Hostafrancs,INCENDIS,2,15,0,179,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,març,Hostafrancs,INCENDIS,3,15,0,180,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,abril,Hostafrancs,INCENDIS,4,15,0,181,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,maig,Hostafrancs,INCENDIS,5,15,0,182,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,juny,Hostafrancs,INCENDIS,6,15,0,183,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,juliol,Hostafrancs,INCENDIS,7,15,0,184,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,agost,Hostafrancs,INCENDIS,8,15,0,185,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,setembre,Hostafrancs,INCENDIS,9,15,0,186,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,octubre,Hostafrancs,INCENDIS,10,15,0,187,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,novembre,Hostafrancs,INCENDIS,11,15,0,188,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,desembre,Hostafrancs,INCENDIS,12,15,0,189,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,gener,la Bordeta,INCENDIS,1,16,0,190,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,febrer,la Bordeta,INCENDIS,2,16,0,191,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,març,la Bordeta,INCENDIS,3,16,0,192,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,abril,la Bordeta,INCENDIS,4,16,0,193,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,maig,la Bordeta,INCENDIS,5,16,0,194,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,juny,la Bordeta,INCENDIS,6,16,0,195,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,agost,la Bordeta,INCENDIS,8,16,0,196,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,setembre,la Bordeta,INCENDIS,9,16,0,197,2026-05-04 15:07:13.780467
+3,12,Sants-Montjuïc,2025,octubre,la Bordeta,INCENDIS,10,16,0,198,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,novembre,la Bordeta,INCENDIS,11,16,0,199,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,desembre,la Bordeta,INCENDIS,12,16,0,200,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,gener,Sants - Badal,INCENDIS,1,17,0,201,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,febrer,Sants - Badal,INCENDIS,2,17,0,202,2026-05-04 15:07:13.780467
+3,4,Sants-Montjuïc,2025,març,Sants - Badal,INCENDIS,3,17,0,203,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,abril,Sants - Badal,INCENDIS,4,17,0,204,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,maig,Sants - Badal,INCENDIS,5,17,0,205,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,juny,Sants - Badal,INCENDIS,6,17,0,206,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,juliol,Sants - Badal,INCENDIS,7,17,0,207,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,agost,Sants - Badal,INCENDIS,8,17,0,208,2026-05-04 15:07:13.780467
+3,9,Sants-Montjuïc,2025,setembre,Sants - Badal,INCENDIS,9,17,0,209,2026-05-04 15:07:13.780467
+3,12,Sants-Montjuïc,2025,octubre,Sants - Badal,INCENDIS,10,17,0,210,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,novembre,Sants - Badal,INCENDIS,11,17,0,211,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,desembre,Sants - Badal,INCENDIS,12,17,0,212,2026-05-04 15:07:13.780467
+3,12,Sants-Montjuïc,2025,gener,Sants,INCENDIS,1,18,0,213,2026-05-04 15:07:13.780467
+3,11,Sants-Montjuïc,2025,febrer,Sants,INCENDIS,2,18,0,214,2026-05-04 15:07:13.780467
+3,8,Sants-Montjuïc,2025,març,Sants,INCENDIS,3,18,0,215,2026-05-04 15:07:13.780467
+3,10,Sants-Montjuïc,2025,abril,Sants,INCENDIS,4,18,0,216,2026-05-04 15:07:13.780467
+3,10,Sants-Montjuïc,2025,maig,Sants,INCENDIS,5,18,0,217,2026-05-04 15:07:13.780467
+3,16,Sants-Montjuïc,2025,juny,Sants,INCENDIS,6,18,0,218,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,juliol,Sants,INCENDIS,7,18,0,219,2026-05-04 15:07:13.780467
+3,21,Sants-Montjuïc,2025,agost,Sants,INCENDIS,8,18,0,220,2026-05-04 15:07:13.780467
+3,17,Sants-Montjuïc,2025,setembre,Sants,INCENDIS,9,18,0,221,2026-05-04 15:07:13.780467
+3,9,Sants-Montjuïc,2025,octubre,Sants,INCENDIS,10,18,0,222,2026-05-04 15:07:13.780467
+3,9,Sants-Montjuïc,2025,novembre,Sants,INCENDIS,11,18,0,223,2026-05-04 15:07:13.780467
+3,8,Sants-Montjuïc,2025,desembre,Sants,INCENDIS,12,18,0,224,2026-05-04 15:07:13.780467
+4,8,Les Corts,2025,gener,les Corts,INCENDIS,1,19,0,225,2026-05-04 15:07:13.780467
+4,3,Les Corts,2025,febrer,les Corts,INCENDIS,2,19,0,226,2026-05-04 15:07:13.780467
+4,9,Les Corts,2025,març,les Corts,INCENDIS,3,19,0,227,2026-05-04 15:07:13.780467
+4,10,Les Corts,2025,abril,les Corts,INCENDIS,4,19,0,228,2026-05-04 15:07:13.780467
+4,13,Les Corts,2025,maig,les Corts,INCENDIS,5,19,0,229,2026-05-04 15:07:13.780467
+4,21,Les Corts,2025,juny,les Corts,INCENDIS,6,19,0,230,2026-05-04 15:07:13.780467
+4,13,Les Corts,2025,juliol,les Corts,INCENDIS,7,19,0,231,2026-05-04 15:07:13.780467
+4,7,Les Corts,2025,agost,les Corts,INCENDIS,8,19,0,232,2026-05-04 15:07:13.780467
+4,10,Les Corts,2025,setembre,les Corts,INCENDIS,9,19,0,233,2026-05-04 15:07:13.780467
+4,13,Les Corts,2025,octubre,les Corts,INCENDIS,10,19,0,234,2026-05-04 15:07:13.780467
+4,5,Les Corts,2025,novembre,les Corts,INCENDIS,11,19,0,235,2026-05-04 15:07:13.780467
+4,6,Les Corts,2025,desembre,les Corts,INCENDIS,12,19,0,236,2026-05-04 15:07:13.780467
+4,3,Les Corts,2025,gener,la Maternitat i Sant Ramon,INCENDIS,1,20,0,237,2026-05-04 15:07:13.780467
+4,4,Les Corts,2025,febrer,la Maternitat i Sant Ramon,INCENDIS,2,20,0,238,2026-05-04 15:07:13.780467
+4,3,Les Corts,2025,març,la Maternitat i Sant Ramon,INCENDIS,3,20,0,239,2026-05-04 15:07:13.780467
+4,5,Les Corts,2025,abril,la Maternitat i Sant Ramon,INCENDIS,4,20,0,240,2026-05-04 15:07:13.780467
+4,8,Les Corts,2025,maig,la Maternitat i Sant Ramon,INCENDIS,5,20,0,241,2026-05-04 15:07:13.780467
+4,17,Les Corts,2025,juny,la Maternitat i Sant Ramon,INCENDIS,6,20,0,242,2026-05-04 15:07:13.780467
+4,6,Les Corts,2025,juliol,la Maternitat i Sant Ramon,INCENDIS,7,20,0,243,2026-05-04 15:07:13.780467
+4,4,Les Corts,2025,agost,la Maternitat i Sant Ramon,INCENDIS,8,20,0,244,2026-05-04 15:07:13.780467
+4,4,Les Corts,2025,setembre,la Maternitat i Sant Ramon,INCENDIS,9,20,0,245,2026-05-04 15:07:13.780467
+4,6,Les Corts,2025,octubre,la Maternitat i Sant Ramon,INCENDIS,10,20,0,246,2026-05-04 15:07:13.780467
+4,3,Les Corts,2025,novembre,la Maternitat i Sant Ramon,INCENDIS,11,20,0,247,2026-05-04 15:07:13.780467
+4,8,Les Corts,2025,desembre,la Maternitat i Sant Ramon,INCENDIS,12,20,0,248,2026-05-04 15:07:13.780467
+4,3,Les Corts,2025,gener,Pedralbes,INCENDIS,1,21,0,249,2026-05-04 15:07:13.780467
+4,9,Les Corts,2025,febrer,Pedralbes,INCENDIS,2,21,0,250,2026-05-04 15:07:13.780467
+4,2,Les Corts,2025,març,Pedralbes,INCENDIS,3,21,0,251,2026-05-04 15:07:13.780467
+4,5,Les Corts,2025,abril,Pedralbes,INCENDIS,4,21,0,252,2026-05-04 15:07:13.780467
+4,11,Les Corts,2025,juny,Pedralbes,INCENDIS,6,21,0,253,2026-05-04 15:07:13.780467
+4,5,Les Corts,2025,juliol,Pedralbes,INCENDIS,7,21,0,254,2026-05-04 15:07:13.780467
+4,4,Les Corts,2025,agost,Pedralbes,INCENDIS,8,21,0,255,2026-05-04 15:07:13.780467
+4,5,Les Corts,2025,setembre,Pedralbes,INCENDIS,9,21,0,256,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,octubre,Pedralbes,INCENDIS,10,21,0,257,2026-05-04 15:07:13.780467
+4,4,Les Corts,2025,novembre,Pedralbes,INCENDIS,11,21,0,258,2026-05-04 15:07:13.780467
+4,5,Les Corts,2025,desembre,Pedralbes,INCENDIS,12,21,0,259,2026-05-04 15:07:13.780467
+5,3,Sarrià-Sant Gervasi,2025,gener,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,1,22,0,260,2026-05-04 15:07:13.780467
+5,5,Sarrià-Sant Gervasi,2025,març,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,3,22,0,261,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,abril,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,4,22,0,262,2026-05-04 15:07:13.780467
+5,5,Sarrià-Sant Gervasi,2025,maig,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,5,22,0,263,2026-05-04 15:07:13.780467
+5,9,Sarrià-Sant Gervasi,2025,juny,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,6,22,0,264,2026-05-04 15:07:13.780467
+5,5,Sarrià-Sant Gervasi,2025,juliol,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,7,22,0,265,2026-05-04 15:07:13.780467
+5,7,Sarrià-Sant Gervasi,2025,agost,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,8,22,0,266,2026-05-04 15:07:13.780467
+5,3,Sarrià-Sant Gervasi,2025,octubre,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,10,22,0,267,2026-05-04 15:07:13.780467
+5,3,Sarrià-Sant Gervasi,2025,novembre,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,11,22,0,268,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,desembre,"Vallvidrera, el Tibidabo i les Planes",INCENDIS,12,22,0,269,2026-05-04 15:07:13.780467
+5,8,Sarrià-Sant Gervasi,2025,gener,Sarrià,INCENDIS,1,23,0,270,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,febrer,Sarrià,INCENDIS,2,23,0,271,2026-05-04 15:07:13.780467
+5,9,Sarrià-Sant Gervasi,2025,març,Sarrià,INCENDIS,3,23,0,272,2026-05-04 15:07:13.780467
+5,5,Sarrià-Sant Gervasi,2025,abril,Sarrià,INCENDIS,4,23,0,273,2026-05-04 15:07:13.780467
+5,10,Sarrià-Sant Gervasi,2025,maig,Sarrià,INCENDIS,5,23,0,274,2026-05-04 15:07:13.780467
+5,19,Sarrià-Sant Gervasi,2025,juny,Sarrià,INCENDIS,6,23,0,275,2026-05-04 15:07:13.780467
+5,6,Sarrià-Sant Gervasi,2025,juliol,Sarrià,INCENDIS,7,23,0,276,2026-05-04 15:07:13.780467
+5,7,Sarrià-Sant Gervasi,2025,agost,Sarrià,INCENDIS,8,23,0,277,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,setembre,Sarrià,INCENDIS,9,23,0,278,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,octubre,Sarrià,INCENDIS,10,23,0,279,2026-05-04 15:07:13.780467
+5,5,Sarrià-Sant Gervasi,2025,novembre,Sarrià,INCENDIS,11,23,0,280,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,desembre,Sarrià,INCENDIS,12,23,0,281,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,gener,les Tres Torres,INCENDIS,1,24,0,282,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,març,les Tres Torres,INCENDIS,3,24,0,283,2026-05-04 15:07:13.780467
+5,5,Sarrià-Sant Gervasi,2025,abril,les Tres Torres,INCENDIS,4,24,0,284,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,maig,les Tres Torres,INCENDIS,5,24,0,285,2026-05-04 15:07:13.780467
+5,6,Sarrià-Sant Gervasi,2025,juny,les Tres Torres,INCENDIS,6,24,0,286,2026-05-04 15:07:13.780467
+5,5,Sarrià-Sant Gervasi,2025,juliol,les Tres Torres,INCENDIS,7,24,0,287,2026-05-04 15:07:13.780467
+5,3,Sarrià-Sant Gervasi,2025,agost,les Tres Torres,INCENDIS,8,24,0,288,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,octubre,les Tres Torres,INCENDIS,10,24,0,289,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,novembre,les Tres Torres,INCENDIS,11,24,0,290,2026-05-04 15:07:13.780467
+5,3,Sarrià-Sant Gervasi,2025,desembre,les Tres Torres,INCENDIS,12,24,0,291,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,gener,Sant Gervasi - la Bonanova,INCENDIS,1,25,0,292,2026-05-04 15:07:13.780467
+5,6,Sarrià-Sant Gervasi,2025,febrer,Sant Gervasi - la Bonanova,INCENDIS,2,25,0,293,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,març,Sant Gervasi - la Bonanova,INCENDIS,3,25,0,294,2026-05-04 15:07:13.780467
+5,8,Sarrià-Sant Gervasi,2025,abril,Sant Gervasi - la Bonanova,INCENDIS,4,25,0,295,2026-05-04 15:07:13.780467
+5,7,Sarrià-Sant Gervasi,2025,maig,Sant Gervasi - la Bonanova,INCENDIS,5,25,0,296,2026-05-04 15:07:13.780467
+5,10,Sarrià-Sant Gervasi,2025,juny,Sant Gervasi - la Bonanova,INCENDIS,6,25,0,297,2026-05-04 15:07:13.780467
+5,11,Sarrià-Sant Gervasi,2025,juliol,Sant Gervasi - la Bonanova,INCENDIS,7,25,0,298,2026-05-04 15:07:13.780467
+5,6,Sarrià-Sant Gervasi,2025,agost,Sant Gervasi - la Bonanova,INCENDIS,8,25,0,299,2026-05-04 15:07:13.780467
+5,3,Sarrià-Sant Gervasi,2025,setembre,Sant Gervasi - la Bonanova,INCENDIS,9,25,0,300,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,octubre,Sant Gervasi - la Bonanova,INCENDIS,10,25,0,301,2026-05-04 15:07:13.780467
+5,14,Sarrià-Sant Gervasi,2025,novembre,Sant Gervasi - la Bonanova,INCENDIS,11,25,0,302,2026-05-04 15:07:13.780467
+5,6,Sarrià-Sant Gervasi,2025,desembre,Sant Gervasi - la Bonanova,INCENDIS,12,25,0,303,2026-05-04 15:07:13.780467
+5,21,Sarrià-Sant Gervasi,2025,gener,Sant Gervasi - Galvany,INCENDIS,1,26,0,304,2026-05-04 15:07:13.780467
+5,11,Sarrià-Sant Gervasi,2025,febrer,Sant Gervasi - Galvany,INCENDIS,2,26,0,305,2026-05-04 15:07:13.780467
+5,12,Sarrià-Sant Gervasi,2025,març,Sant Gervasi - Galvany,INCENDIS,3,26,0,306,2026-05-04 15:07:13.780467
+5,17,Sarrià-Sant Gervasi,2025,abril,Sant Gervasi - Galvany,INCENDIS,4,26,0,307,2026-05-04 15:07:13.780467
+5,12,Sarrià-Sant Gervasi,2025,maig,Sant Gervasi - Galvany,INCENDIS,5,26,0,308,2026-05-04 15:07:13.780467
+5,15,Sarrià-Sant Gervasi,2025,juny,Sant Gervasi - Galvany,INCENDIS,6,26,0,309,2026-05-04 15:07:13.780467
+5,12,Sarrià-Sant Gervasi,2025,juliol,Sant Gervasi - Galvany,INCENDIS,7,26,0,310,2026-05-04 15:07:13.780467
+5,5,Sarrià-Sant Gervasi,2025,agost,Sant Gervasi - Galvany,INCENDIS,8,26,0,311,2026-05-04 15:07:13.780467
+5,6,Sarrià-Sant Gervasi,2025,setembre,Sant Gervasi - Galvany,INCENDIS,9,26,0,312,2026-05-04 15:07:13.780467
+5,22,Sarrià-Sant Gervasi,2025,octubre,Sant Gervasi - Galvany,INCENDIS,10,26,0,313,2026-05-04 15:07:13.780467
+5,17,Sarrià-Sant Gervasi,2025,novembre,Sant Gervasi - Galvany,INCENDIS,11,26,0,314,2026-05-04 15:07:13.780467
+5,11,Sarrià-Sant Gervasi,2025,desembre,Sant Gervasi - Galvany,INCENDIS,12,26,0,315,2026-05-04 15:07:13.780467
+5,9,Sarrià-Sant Gervasi,2025,gener,el Putxet i el Farró,INCENDIS,1,27,0,316,2026-05-04 15:07:13.780467
+5,6,Sarrià-Sant Gervasi,2025,febrer,el Putxet i el Farró,INCENDIS,2,27,0,317,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,març,el Putxet i el Farró,INCENDIS,3,27,0,318,2026-05-04 15:07:13.780467
+5,18,Sarrià-Sant Gervasi,2025,abril,el Putxet i el Farró,INCENDIS,4,27,0,319,2026-05-04 15:07:13.780467
+5,9,Sarrià-Sant Gervasi,2025,maig,el Putxet i el Farró,INCENDIS,5,27,0,320,2026-05-04 15:07:13.780467
+5,3,Sarrià-Sant Gervasi,2025,juny,el Putxet i el Farró,INCENDIS,6,27,0,321,2026-05-04 15:07:13.780467
+5,6,Sarrià-Sant Gervasi,2025,juliol,el Putxet i el Farró,INCENDIS,7,27,0,322,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,agost,el Putxet i el Farró,INCENDIS,8,27,0,323,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,setembre,el Putxet i el Farró,INCENDIS,9,27,0,324,2026-05-04 15:07:13.780467
+5,9,Sarrià-Sant Gervasi,2025,octubre,el Putxet i el Farró,INCENDIS,10,27,0,325,2026-05-04 15:07:13.780467
+5,7,Sarrià-Sant Gervasi,2025,novembre,el Putxet i el Farró,INCENDIS,11,27,0,326,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,març,Vallbona,INCENDIS,3,56,0,639,2026-05-04 15:07:13.780467
+5,4,Sarrià-Sant Gervasi,2025,desembre,el Putxet i el Farró,INCENDIS,12,27,0,327,2026-05-04 15:07:13.780467
+6,7,Gràcia,2025,gener,Vallcarca i els Penitents,INCENDIS,1,28,0,328,2026-05-04 15:07:13.780467
+6,5,Gràcia,2025,febrer,Vallcarca i els Penitents,INCENDIS,2,28,0,329,2026-05-04 15:07:13.780467
+6,5,Gràcia,2025,març,Vallcarca i els Penitents,INCENDIS,3,28,0,330,2026-05-04 15:07:13.780467
+6,3,Gràcia,2025,abril,Vallcarca i els Penitents,INCENDIS,4,28,0,331,2026-05-04 15:07:13.780467
+6,4,Gràcia,2025,maig,Vallcarca i els Penitents,INCENDIS,5,28,0,332,2026-05-04 15:07:13.780467
+6,8,Gràcia,2025,juny,Vallcarca i els Penitents,INCENDIS,6,28,0,333,2026-05-04 15:07:13.780467
+6,7,Gràcia,2025,juliol,Vallcarca i els Penitents,INCENDIS,7,28,0,334,2026-05-04 15:07:13.780467
+6,8,Gràcia,2025,agost,Vallcarca i els Penitents,INCENDIS,8,28,0,335,2026-05-04 15:07:13.780467
+6,6,Gràcia,2025,setembre,Vallcarca i els Penitents,INCENDIS,9,28,0,336,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,octubre,Vallcarca i els Penitents,INCENDIS,10,28,0,337,2026-05-04 15:07:13.780467
+6,7,Gràcia,2025,novembre,Vallcarca i els Penitents,INCENDIS,11,28,0,338,2026-05-04 15:07:13.780467
+6,5,Gràcia,2025,desembre,Vallcarca i els Penitents,INCENDIS,12,28,0,339,2026-05-04 15:07:13.780467
+6,3,Gràcia,2025,gener,el Coll,INCENDIS,1,29,0,340,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,febrer,el Coll,INCENDIS,2,29,0,341,2026-05-04 15:07:13.780467
+6,5,Gràcia,2025,març,el Coll,INCENDIS,3,29,0,342,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,juny,el Coll,INCENDIS,6,29,0,343,2026-05-04 15:07:13.780467
+6,5,Gràcia,2025,juliol,el Coll,INCENDIS,7,29,0,344,2026-05-04 15:07:13.780467
+6,3,Gràcia,2025,agost,el Coll,INCENDIS,8,29,0,345,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,setembre,el Coll,INCENDIS,9,29,0,346,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,octubre,el Coll,INCENDIS,10,29,0,347,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,novembre,el Coll,INCENDIS,11,29,0,348,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,desembre,el Coll,INCENDIS,12,29,0,349,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,gener,la Salut,INCENDIS,1,30,0,350,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,febrer,la Salut,INCENDIS,2,30,0,351,2026-05-04 15:07:13.780467
+6,9,Gràcia,2025,març,la Salut,INCENDIS,3,30,0,352,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,abril,la Salut,INCENDIS,4,30,0,353,2026-05-04 15:07:13.780467
+6,3,Gràcia,2025,maig,la Salut,INCENDIS,5,30,0,354,2026-05-04 15:07:13.780467
+6,6,Gràcia,2025,juny,la Salut,INCENDIS,6,30,0,355,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,juliol,la Salut,INCENDIS,7,30,0,356,2026-05-04 15:07:13.780467
+6,7,Gràcia,2025,agost,la Salut,INCENDIS,8,30,0,357,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,setembre,la Salut,INCENDIS,9,30,0,358,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,octubre,la Salut,INCENDIS,10,30,0,359,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,novembre,la Salut,INCENDIS,11,30,0,360,2026-05-04 15:07:13.780467
+6,17,Gràcia,2025,gener,la Vila de Gràcia,INCENDIS,1,31,0,362,2026-05-04 15:07:13.780467
+6,10,Gràcia,2025,febrer,la Vila de Gràcia,INCENDIS,2,31,0,363,2026-05-04 15:07:13.780467
+6,9,Gràcia,2025,març,la Vila de Gràcia,INCENDIS,3,31,0,364,2026-05-04 15:07:13.780467
+6,11,Gràcia,2025,abril,la Vila de Gràcia,INCENDIS,4,31,0,365,2026-05-04 15:07:13.780467
+6,8,Gràcia,2025,maig,la Vila de Gràcia,INCENDIS,5,31,0,366,2026-05-04 15:07:13.780467
+6,20,Gràcia,2025,juny,la Vila de Gràcia,INCENDIS,6,31,0,367,2026-05-04 15:07:13.780467
+6,18,Gràcia,2025,juliol,la Vila de Gràcia,INCENDIS,7,31,0,368,2026-05-04 15:07:13.780467
+6,5,Gràcia,2025,agost,la Vila de Gràcia,INCENDIS,8,31,0,369,2026-05-04 15:07:13.780467
+6,9,Gràcia,2025,setembre,la Vila de Gràcia,INCENDIS,9,31,0,370,2026-05-04 15:07:13.780467
+6,16,Gràcia,2025,octubre,la Vila de Gràcia,INCENDIS,10,31,0,371,2026-05-04 15:07:13.780467
+6,19,Gràcia,2025,novembre,la Vila de Gràcia,INCENDIS,11,31,0,372,2026-05-04 15:07:13.780467
+6,13,Gràcia,2025,desembre,la Vila de Gràcia,INCENDIS,12,31,0,373,2026-05-04 15:07:13.780467
+6,4,Gràcia,2025,gener,el Camp d'en Grassot i Gràcia Nova,INCENDIS,1,32,0,374,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,febrer,el Camp d'en Grassot i Gràcia Nova,INCENDIS,2,32,0,375,2026-05-04 15:07:13.780467
+6,6,Gràcia,2025,març,el Camp d'en Grassot i Gràcia Nova,INCENDIS,3,32,0,376,2026-05-04 15:07:13.780467
+6,3,Gràcia,2025,abril,el Camp d'en Grassot i Gràcia Nova,INCENDIS,4,32,0,377,2026-05-04 15:07:13.780467
+6,9,Gràcia,2025,maig,el Camp d'en Grassot i Gràcia Nova,INCENDIS,5,32,0,378,2026-05-04 15:07:13.780467
+6,7,Gràcia,2025,juny,el Camp d'en Grassot i Gràcia Nova,INCENDIS,6,32,0,379,2026-05-04 15:07:13.780467
+6,5,Gràcia,2025,juliol,el Camp d'en Grassot i Gràcia Nova,INCENDIS,7,32,0,380,2026-05-04 15:07:13.780467
+6,5,Gràcia,2025,agost,el Camp d'en Grassot i Gràcia Nova,INCENDIS,8,32,0,381,2026-05-04 15:07:13.780467
+6,3,Gràcia,2025,setembre,el Camp d'en Grassot i Gràcia Nova,INCENDIS,9,32,0,382,2026-05-04 15:07:13.780467
+6,7,Gràcia,2025,octubre,el Camp d'en Grassot i Gràcia Nova,INCENDIS,10,32,0,383,2026-05-04 15:07:13.780467
+6,11,Gràcia,2025,novembre,el Camp d'en Grassot i Gràcia Nova,INCENDIS,11,32,0,384,2026-05-04 15:07:13.780467
+6,6,Gràcia,2025,desembre,el Camp d'en Grassot i Gràcia Nova,INCENDIS,12,32,0,385,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,gener,el Baix Guinardó,INCENDIS,1,33,0,386,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,febrer,el Baix Guinardó,INCENDIS,2,33,0,387,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,març,el Baix Guinardó,INCENDIS,3,33,0,388,2026-05-04 15:07:13.780467
+7,7,Horta-Guinardó,2025,abril,el Baix Guinardó,INCENDIS,4,33,0,389,2026-05-04 15:07:13.780467
+7,11,Horta-Guinardó,2025,maig,el Baix Guinardó,INCENDIS,5,33,0,390,2026-05-04 15:07:13.780467
+7,7,Horta-Guinardó,2025,juny,el Baix Guinardó,INCENDIS,6,33,0,391,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,juliol,el Baix Guinardó,INCENDIS,7,33,0,392,2026-05-04 15:07:13.780467
+7,8,Horta-Guinardó,2025,agost,el Baix Guinardó,INCENDIS,8,33,0,393,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,setembre,el Baix Guinardó,INCENDIS,9,33,0,394,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,octubre,el Baix Guinardó,INCENDIS,10,33,0,395,2026-05-04 15:07:13.780467
+7,13,Horta-Guinardó,2025,novembre,el Baix Guinardó,INCENDIS,11,33,0,396,2026-05-04 15:07:13.780467
+7,8,Horta-Guinardó,2025,desembre,el Baix Guinardó,INCENDIS,12,33,0,397,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,febrer,Can Baró,INCENDIS,2,34,0,398,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,març,Can Baró,INCENDIS,3,34,0,399,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,maig,Can Baró,INCENDIS,5,34,0,400,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,juny,Can Baró,INCENDIS,6,34,0,401,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,juliol,Can Baró,INCENDIS,7,34,0,402,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,agost,Can Baró,INCENDIS,8,34,0,403,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,octubre,Can Baró,INCENDIS,10,34,0,404,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,novembre,Can Baró,INCENDIS,11,34,0,405,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,desembre,Can Baró,INCENDIS,12,34,0,406,2026-05-04 15:07:13.780467
+7,10,Horta-Guinardó,2025,gener,el Guinardó,INCENDIS,1,35,0,407,2026-05-04 15:07:13.780467
+7,8,Horta-Guinardó,2025,febrer,el Guinardó,INCENDIS,2,35,0,408,2026-05-04 15:07:13.780467
+7,10,Horta-Guinardó,2025,març,el Guinardó,INCENDIS,3,35,0,409,2026-05-04 15:07:13.780467
+7,7,Horta-Guinardó,2025,abril,el Guinardó,INCENDIS,4,35,0,410,2026-05-04 15:07:13.780467
+7,8,Horta-Guinardó,2025,maig,el Guinardó,INCENDIS,5,35,0,411,2026-05-04 15:07:13.780467
+7,13,Horta-Guinardó,2025,juny,el Guinardó,INCENDIS,6,35,0,412,2026-05-04 15:07:13.780467
+7,7,Horta-Guinardó,2025,juliol,el Guinardó,INCENDIS,7,35,0,413,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,agost,el Guinardó,INCENDIS,8,35,0,414,2026-05-04 15:07:13.780467
+7,12,Horta-Guinardó,2025,setembre,el Guinardó,INCENDIS,9,35,0,415,2026-05-04 15:07:13.780467
+7,12,Horta-Guinardó,2025,octubre,el Guinardó,INCENDIS,10,35,0,416,2026-05-04 15:07:13.780467
+7,37,Horta-Guinardó,2025,novembre,el Guinardó,INCENDIS,11,35,0,417,2026-05-04 15:07:13.780467
+7,8,Horta-Guinardó,2025,desembre,el Guinardó,INCENDIS,12,35,0,418,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,gener,la Font d'en Fargues,INCENDIS,1,36,0,419,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,febrer,la Font d'en Fargues,INCENDIS,2,36,0,420,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,març,la Font d'en Fargues,INCENDIS,3,36,0,421,2026-05-04 15:07:13.780467
+7,7,Horta-Guinardó,2025,abril,la Font d'en Fargues,INCENDIS,4,36,0,422,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,maig,la Font d'en Fargues,INCENDIS,5,36,0,423,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,juny,la Font d'en Fargues,INCENDIS,6,36,0,424,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,juliol,la Font d'en Fargues,INCENDIS,7,36,0,425,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,agost,la Font d'en Fargues,INCENDIS,8,36,0,426,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,setembre,la Font d'en Fargues,INCENDIS,9,36,0,427,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,octubre,la Font d'en Fargues,INCENDIS,10,36,0,428,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,novembre,la Font d'en Fargues,INCENDIS,11,36,0,429,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,desembre,la Font d'en Fargues,INCENDIS,12,36,0,430,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,gener,el Carmel,INCENDIS,1,37,0,431,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,febrer,el Carmel,INCENDIS,2,37,0,432,2026-05-04 15:07:13.780467
+7,7,Horta-Guinardó,2025,març,el Carmel,INCENDIS,3,37,0,433,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,abril,el Carmel,INCENDIS,4,37,0,434,2026-05-04 15:07:13.780467
+7,9,Horta-Guinardó,2025,maig,el Carmel,INCENDIS,5,37,0,435,2026-05-04 15:07:13.780467
+7,14,Horta-Guinardó,2025,juny,el Carmel,INCENDIS,6,37,0,436,2026-05-04 15:07:13.780467
+7,12,Horta-Guinardó,2025,juliol,el Carmel,INCENDIS,7,37,0,437,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,agost,el Carmel,INCENDIS,8,37,0,438,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,setembre,el Carmel,INCENDIS,9,37,0,439,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,octubre,el Carmel,INCENDIS,10,37,0,440,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,novembre,el Carmel,INCENDIS,11,37,0,441,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,desembre,el Carmel,INCENDIS,12,37,0,442,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,gener,la Teixonera,INCENDIS,1,38,0,443,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,febrer,la Teixonera,INCENDIS,2,38,0,444,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,maig,la Teixonera,INCENDIS,5,38,0,445,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,juliol,la Teixonera,INCENDIS,7,38,0,446,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,agost,la Teixonera,INCENDIS,8,38,0,447,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,setembre,la Teixonera,INCENDIS,9,38,0,448,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,octubre,la Teixonera,INCENDIS,10,38,0,449,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,novembre,la Teixonera,INCENDIS,11,38,0,450,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,desembre,la Teixonera,INCENDIS,12,38,0,451,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,gener,Sant Genís dels Agudells,INCENDIS,1,39,0,452,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,març,Sant Genís dels Agudells,INCENDIS,3,39,0,453,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,maig,Sant Genís dels Agudells,INCENDIS,5,39,0,454,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,juny,Sant Genís dels Agudells,INCENDIS,6,39,0,455,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,juliol,Sant Genís dels Agudells,INCENDIS,7,39,0,456,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,agost,Sant Genís dels Agudells,INCENDIS,8,39,0,457,2026-05-04 15:07:13.780467
+7,7,Horta-Guinardó,2025,setembre,Sant Genís dels Agudells,INCENDIS,9,39,0,458,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,octubre,Sant Genís dels Agudells,INCENDIS,10,39,0,459,2026-05-04 15:07:13.780467
+7,8,Horta-Guinardó,2025,gener,Montbau,INCENDIS,1,40,0,460,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,febrer,Montbau,INCENDIS,2,40,0,461,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,abril,Montbau,INCENDIS,4,40,0,462,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,maig,Montbau,INCENDIS,5,40,0,463,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,juny,Montbau,INCENDIS,6,40,0,464,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,juliol,Montbau,INCENDIS,7,40,0,465,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,agost,Montbau,INCENDIS,8,40,0,466,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,setembre,Montbau,INCENDIS,9,40,0,467,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,novembre,Montbau,INCENDIS,11,40,0,468,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,desembre,Montbau,INCENDIS,12,40,0,469,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,gener,la Vall d'Hebron,INCENDIS,1,41,0,470,2026-05-04 15:07:13.780467
+7,3,Horta-Guinardó,2025,febrer,la Vall d'Hebron,INCENDIS,2,41,0,471,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,març,la Vall d'Hebron,INCENDIS,3,41,0,472,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,abril,la Vall d'Hebron,INCENDIS,4,41,0,473,2026-05-04 15:07:13.780467
+7,14,Horta-Guinardó,2025,juny,la Vall d'Hebron,INCENDIS,6,41,0,474,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,juliol,la Vall d'Hebron,INCENDIS,7,41,0,475,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,agost,la Vall d'Hebron,INCENDIS,8,41,0,476,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,setembre,la Vall d'Hebron,INCENDIS,9,41,0,477,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,octubre,la Vall d'Hebron,INCENDIS,10,41,0,478,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,novembre,la Vall d'Hebron,INCENDIS,11,41,0,479,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,desembre,la Vall d'Hebron,INCENDIS,12,41,0,480,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,gener,la Clota,INCENDIS,1,42,0,481,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,febrer,la Clota,INCENDIS,2,42,0,482,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,març,la Clota,INCENDIS,3,42,0,483,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,abril,la Clota,INCENDIS,4,42,0,484,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,maig,la Clota,INCENDIS,5,42,0,485,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,juny,la Clota,INCENDIS,6,42,0,486,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,juliol,la Clota,INCENDIS,7,42,0,487,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,agost,la Clota,INCENDIS,8,42,0,488,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,setembre,la Clota,INCENDIS,9,42,0,489,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,novembre,la Clota,INCENDIS,11,42,0,490,2026-05-04 15:07:13.780467
+7,12,Horta-Guinardó,2025,gener,Horta,INCENDIS,1,43,0,491,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,febrer,Horta,INCENDIS,2,43,0,492,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,març,Horta,INCENDIS,3,43,0,493,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,abril,Horta,INCENDIS,4,43,0,494,2026-05-04 15:07:13.780467
+7,13,Horta-Guinardó,2025,maig,Horta,INCENDIS,5,43,0,495,2026-05-04 15:07:13.780467
+7,9,Horta-Guinardó,2025,juny,Horta,INCENDIS,6,43,0,496,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,juliol,Horta,INCENDIS,7,43,0,497,2026-05-04 15:07:13.780467
+7,7,Horta-Guinardó,2025,agost,Horta,INCENDIS,8,43,0,498,2026-05-04 15:07:13.780467
+7,10,Horta-Guinardó,2025,setembre,Horta,INCENDIS,9,43,0,499,2026-05-04 15:07:13.780467
+7,4,Horta-Guinardó,2025,octubre,Horta,INCENDIS,10,43,0,500,2026-05-04 15:07:13.780467
+7,6,Horta-Guinardó,2025,novembre,Horta,INCENDIS,11,43,0,501,2026-05-04 15:07:13.780467
+7,5,Horta-Guinardó,2025,desembre,Horta,INCENDIS,12,43,0,502,2026-05-04 15:07:13.780467
+8,13,Nou Barris,2025,gener,Vilapicina i la Torre Llobeta,INCENDIS,1,44,0,503,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,febrer,Vilapicina i la Torre Llobeta,INCENDIS,2,44,0,504,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,març,Vilapicina i la Torre Llobeta,INCENDIS,3,44,0,505,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,abril,Vilapicina i la Torre Llobeta,INCENDIS,4,44,0,506,2026-05-04 15:07:13.780467
+8,8,Nou Barris,2025,maig,Vilapicina i la Torre Llobeta,INCENDIS,5,44,0,507,2026-05-04 15:07:13.780467
+8,8,Nou Barris,2025,juny,Vilapicina i la Torre Llobeta,INCENDIS,6,44,0,508,2026-05-04 15:07:13.780467
+8,10,Nou Barris,2025,juliol,Vilapicina i la Torre Llobeta,INCENDIS,7,44,0,509,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,agost,Vilapicina i la Torre Llobeta,INCENDIS,8,44,0,510,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,setembre,Vilapicina i la Torre Llobeta,INCENDIS,9,44,0,511,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,octubre,Vilapicina i la Torre Llobeta,INCENDIS,10,44,0,512,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,novembre,Vilapicina i la Torre Llobeta,INCENDIS,11,44,0,513,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,desembre,Vilapicina i la Torre Llobeta,INCENDIS,12,44,0,514,2026-05-04 15:07:13.780467
+8,14,Nou Barris,2025,gener,Porta,INCENDIS,1,45,0,515,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,febrer,Porta,INCENDIS,2,45,0,516,2026-05-04 15:07:13.780467
+8,8,Nou Barris,2025,març,Porta,INCENDIS,3,45,0,517,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,abril,Porta,INCENDIS,4,45,0,518,2026-05-04 15:07:13.780467
+8,13,Nou Barris,2025,maig,Porta,INCENDIS,5,45,0,519,2026-05-04 15:07:13.780467
+8,8,Nou Barris,2025,juny,Porta,INCENDIS,6,45,0,520,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,juliol,Porta,INCENDIS,7,45,0,521,2026-05-04 15:07:13.780467
+8,12,Nou Barris,2025,agost,Porta,INCENDIS,8,45,0,522,2026-05-04 15:07:13.780467
+8,8,Nou Barris,2025,setembre,Porta,INCENDIS,9,45,0,523,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,octubre,Porta,INCENDIS,10,45,0,524,2026-05-04 15:07:13.780467
+8,19,Nou Barris,2025,novembre,Porta,INCENDIS,11,45,0,525,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,desembre,Porta,INCENDIS,12,45,0,526,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,gener,el Turó de la Peira,INCENDIS,1,46,0,527,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,febrer,el Turó de la Peira,INCENDIS,2,46,0,528,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,març,el Turó de la Peira,INCENDIS,3,46,0,529,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,abril,el Turó de la Peira,INCENDIS,4,46,0,530,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,maig,el Turó de la Peira,INCENDIS,5,46,0,531,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,juny,el Turó de la Peira,INCENDIS,6,46,0,532,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,juliol,el Turó de la Peira,INCENDIS,7,46,0,533,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,agost,el Turó de la Peira,INCENDIS,8,46,0,534,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,setembre,el Turó de la Peira,INCENDIS,9,46,0,535,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,octubre,el Turó de la Peira,INCENDIS,10,46,0,536,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,novembre,el Turó de la Peira,INCENDIS,11,46,0,537,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,desembre,el Turó de la Peira,INCENDIS,12,46,0,538,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,març,Can Peguera,INCENDIS,3,47,0,540,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,maig,Can Peguera,INCENDIS,5,47,0,541,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,juny,Can Peguera,INCENDIS,6,47,0,542,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,juliol,Can Peguera,INCENDIS,7,47,0,543,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,octubre,Can Peguera,INCENDIS,10,47,0,544,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,desembre,Can Peguera,INCENDIS,12,47,0,545,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,gener,la Guineueta,INCENDIS,1,48,0,546,2026-05-04 15:07:13.780467
+8,13,Nou Barris,2025,febrer,la Guineueta,INCENDIS,2,48,0,547,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,març,la Guineueta,INCENDIS,3,48,0,548,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,abril,la Guineueta,INCENDIS,4,48,0,549,2026-05-04 15:07:13.780467
+8,11,Nou Barris,2025,maig,la Guineueta,INCENDIS,5,48,0,550,2026-05-04 15:07:13.780467
+8,9,Nou Barris,2025,juny,la Guineueta,INCENDIS,6,48,0,551,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,juliol,la Guineueta,INCENDIS,7,48,0,552,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,agost,la Guineueta,INCENDIS,8,48,0,553,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,setembre,la Guineueta,INCENDIS,9,48,0,554,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,octubre,la Guineueta,INCENDIS,10,48,0,555,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,novembre,la Guineueta,INCENDIS,11,48,0,556,2026-05-04 15:07:13.780467
+8,12,Nou Barris,2025,desembre,la Guineueta,INCENDIS,12,48,0,557,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,gener,Canyelles,INCENDIS,1,49,0,558,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,febrer,Canyelles,INCENDIS,2,49,0,559,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,març,Canyelles,INCENDIS,3,49,0,560,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,abril,Canyelles,INCENDIS,4,49,0,561,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,juny,Canyelles,INCENDIS,6,49,0,562,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,juliol,Canyelles,INCENDIS,7,49,0,563,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,agost,Canyelles,INCENDIS,8,49,0,564,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,octubre,Canyelles,INCENDIS,10,49,0,565,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,novembre,Canyelles,INCENDIS,11,49,0,566,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,gener,les Roquetes,INCENDIS,1,50,0,567,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,febrer,les Roquetes,INCENDIS,2,50,0,568,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,març,les Roquetes,INCENDIS,3,50,0,569,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,abril,les Roquetes,INCENDIS,4,50,0,570,2026-05-04 15:07:13.780467
+8,9,Nou Barris,2025,maig,les Roquetes,INCENDIS,5,50,0,571,2026-05-04 15:07:13.780467
+8,10,Nou Barris,2025,juny,les Roquetes,INCENDIS,6,50,0,572,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,juliol,les Roquetes,INCENDIS,7,50,0,573,2026-05-04 15:07:13.780467
+8,9,Nou Barris,2025,agost,les Roquetes,INCENDIS,8,50,0,574,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,setembre,les Roquetes,INCENDIS,9,50,0,575,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,octubre,les Roquetes,INCENDIS,10,50,0,576,2026-05-04 15:07:13.780467
+8,10,Nou Barris,2025,novembre,les Roquetes,INCENDIS,11,50,0,577,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,desembre,les Roquetes,INCENDIS,12,50,0,578,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,gener,Verdun,INCENDIS,1,51,0,579,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,febrer,Verdun,INCENDIS,2,51,0,580,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,març,Verdun,INCENDIS,3,51,0,581,2026-05-04 15:07:13.780467
+8,8,Nou Barris,2025,abril,Verdun,INCENDIS,4,51,0,582,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,maig,Verdun,INCENDIS,5,51,0,583,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,juny,Verdun,INCENDIS,6,51,0,584,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,juliol,Verdun,INCENDIS,7,51,0,585,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,agost,Verdun,INCENDIS,8,51,0,586,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,setembre,Verdun,INCENDIS,9,51,0,587,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,octubre,Verdun,INCENDIS,10,51,0,588,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,novembre,Verdun,INCENDIS,11,51,0,589,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,desembre,Verdun,INCENDIS,12,51,0,590,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,gener,la Prosperitat,INCENDIS,1,52,0,591,2026-05-04 15:07:13.780467
+8,9,Nou Barris,2025,febrer,la Prosperitat,INCENDIS,2,52,0,592,2026-05-04 15:07:13.780467
+8,11,Nou Barris,2025,març,la Prosperitat,INCENDIS,3,52,0,593,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,abril,la Prosperitat,INCENDIS,4,52,0,594,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,maig,la Prosperitat,INCENDIS,5,52,0,595,2026-05-04 15:07:13.780467
+8,17,Nou Barris,2025,juny,la Prosperitat,INCENDIS,6,52,0,596,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,juliol,la Prosperitat,INCENDIS,7,52,0,597,2026-05-04 15:07:13.780467
+8,10,Nou Barris,2025,agost,la Prosperitat,INCENDIS,8,52,0,598,2026-05-04 15:07:13.780467
+8,10,Nou Barris,2025,setembre,la Prosperitat,INCENDIS,9,52,0,599,2026-05-04 15:07:13.780467
+8,9,Nou Barris,2025,octubre,la Prosperitat,INCENDIS,10,52,0,600,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,novembre,la Prosperitat,INCENDIS,11,52,0,601,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,desembre,la Prosperitat,INCENDIS,12,52,0,602,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,gener,la Trinitat Nova,INCENDIS,1,53,0,603,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,març,la Trinitat Nova,INCENDIS,3,53,0,604,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,abril,la Trinitat Nova,INCENDIS,4,53,0,605,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,maig,la Trinitat Nova,INCENDIS,5,53,0,606,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,abril,Vallbona,INCENDIS,4,56,0,640,2026-05-04 15:07:13.780467
+8,11,Nou Barris,2025,juny,la Trinitat Nova,INCENDIS,6,53,0,607,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,juliol,la Trinitat Nova,INCENDIS,7,53,0,608,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,agost,la Trinitat Nova,INCENDIS,8,53,0,609,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,setembre,la Trinitat Nova,INCENDIS,9,53,0,610,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,octubre,la Trinitat Nova,INCENDIS,10,53,0,611,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,novembre,la Trinitat Nova,INCENDIS,11,53,0,612,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,desembre,la Trinitat Nova,INCENDIS,12,53,0,613,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,gener,Torre Baró,INCENDIS,1,54,0,614,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,febrer,Torre Baró,INCENDIS,2,54,0,615,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,març,Torre Baró,INCENDIS,3,54,0,616,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,abril,Torre Baró,INCENDIS,4,54,0,617,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,maig,Torre Baró,INCENDIS,5,54,0,618,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,juny,Torre Baró,INCENDIS,6,54,0,619,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,juliol,Torre Baró,INCENDIS,7,54,0,620,2026-05-04 15:07:13.780467
+8,5,Nou Barris,2025,agost,Torre Baró,INCENDIS,8,54,0,621,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,setembre,Torre Baró,INCENDIS,9,54,0,622,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,octubre,Torre Baró,INCENDIS,10,54,0,623,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,novembre,Torre Baró,INCENDIS,11,54,0,624,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,desembre,Torre Baró,INCENDIS,12,54,0,625,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,gener,Ciutat Meridiana,INCENDIS,1,55,0,626,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,febrer,Ciutat Meridiana,INCENDIS,2,55,0,627,2026-05-04 15:07:13.780467
+8,3,Nou Barris,2025,març,Ciutat Meridiana,INCENDIS,3,55,0,628,2026-05-04 15:07:13.780467
+8,9,Nou Barris,2025,abril,Ciutat Meridiana,INCENDIS,4,55,0,629,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,maig,Ciutat Meridiana,INCENDIS,5,55,0,630,2026-05-04 15:07:13.780467
+8,17,Nou Barris,2025,juny,Ciutat Meridiana,INCENDIS,6,55,0,631,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,juliol,Ciutat Meridiana,INCENDIS,7,55,0,632,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,agost,Ciutat Meridiana,INCENDIS,8,55,0,633,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,setembre,Ciutat Meridiana,INCENDIS,9,55,0,634,2026-05-04 15:07:13.780467
+8,7,Nou Barris,2025,novembre,Ciutat Meridiana,INCENDIS,11,55,0,635,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,desembre,Ciutat Meridiana,INCENDIS,12,55,0,636,2026-05-04 15:07:13.780467
+8,4,Nou Barris,2025,gener,Vallbona,INCENDIS,1,56,0,637,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,febrer,Vallbona,INCENDIS,2,56,0,638,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,maig,Vallbona,INCENDIS,5,56,0,641,2026-05-04 15:07:13.780467
+8,6,Nou Barris,2025,juny,Vallbona,INCENDIS,6,56,0,642,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,agost,Vallbona,INCENDIS,8,56,0,643,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,setembre,Vallbona,INCENDIS,9,56,0,644,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,octubre,Vallbona,INCENDIS,10,56,0,645,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,novembre,Vallbona,INCENDIS,11,56,0,646,2026-05-04 15:07:13.780467
+8,2,Nou Barris,2025,desembre,Vallbona,INCENDIS,12,56,0,647,2026-05-04 15:07:13.780467
+9,3,Sant Andreu,2025,gener,la Trinitat Vella,INCENDIS,1,57,0,648,2026-05-04 15:07:13.780467
+9,2,Sant Andreu,2025,febrer,la Trinitat Vella,INCENDIS,2,57,0,649,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,març,la Trinitat Vella,INCENDIS,3,57,0,650,2026-05-04 15:07:13.780467
+9,2,Sant Andreu,2025,abril,la Trinitat Vella,INCENDIS,4,57,0,651,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,maig,la Trinitat Vella,INCENDIS,5,57,0,652,2026-05-04 15:07:13.780467
+9,7,Sant Andreu,2025,juny,la Trinitat Vella,INCENDIS,6,57,0,653,2026-05-04 15:07:13.780467
+9,6,Sant Andreu,2025,juliol,la Trinitat Vella,INCENDIS,7,57,0,654,2026-05-04 15:07:13.780467
+9,3,Sant Andreu,2025,agost,la Trinitat Vella,INCENDIS,8,57,0,655,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,setembre,la Trinitat Vella,INCENDIS,9,57,0,656,2026-05-04 15:07:13.780467
+9,2,Sant Andreu,2025,octubre,la Trinitat Vella,INCENDIS,10,57,0,657,2026-05-04 15:07:13.780467
+9,6,Sant Andreu,2025,novembre,la Trinitat Vella,INCENDIS,11,57,0,658,2026-05-04 15:07:13.780467
+9,3,Sant Andreu,2025,desembre,la Trinitat Vella,INCENDIS,12,57,0,659,2026-05-04 15:07:13.780467
+9,2,Sant Andreu,2025,gener,Baró de Viver,INCENDIS,1,58,0,660,2026-05-04 15:07:13.780467
+9,2,Sant Andreu,2025,maig,Baró de Viver,INCENDIS,5,58,0,661,2026-05-04 15:07:13.780467
+9,5,Sant Andreu,2025,juny,Baró de Viver,INCENDIS,6,58,0,662,2026-05-04 15:07:13.780467
+9,1,Sant Andreu,2025,juliol,Baró de Viver,INCENDIS,7,58,0,663,2026-05-04 15:07:13.780467
+9,1,Sant Andreu,2025,setembre,Baró de Viver,INCENDIS,9,58,0,664,2026-05-04 15:07:13.780467
+9,11,Sant Andreu,2025,gener,el Bon Pastor,INCENDIS,1,59,0,665,2026-05-04 15:07:13.780467
+9,7,Sant Andreu,2025,febrer,el Bon Pastor,INCENDIS,2,59,0,666,2026-05-04 15:07:13.780467
+9,8,Sant Andreu,2025,març,el Bon Pastor,INCENDIS,3,59,0,667,2026-05-04 15:07:13.780467
+9,18,Sant Andreu,2025,abril,el Bon Pastor,INCENDIS,4,59,0,668,2026-05-04 15:07:13.780467
+9,7,Sant Andreu,2025,maig,el Bon Pastor,INCENDIS,5,59,0,669,2026-05-04 15:07:13.780467
+9,17,Sant Andreu,2025,juny,el Bon Pastor,INCENDIS,6,59,0,670,2026-05-04 15:07:13.780467
+9,11,Sant Andreu,2025,juliol,el Bon Pastor,INCENDIS,7,59,0,671,2026-05-04 15:07:13.780467
+9,10,Sant Andreu,2025,agost,el Bon Pastor,INCENDIS,8,59,0,672,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,setembre,el Bon Pastor,INCENDIS,9,59,0,673,2026-05-04 15:07:13.780467
+9,5,Sant Andreu,2025,octubre,el Bon Pastor,INCENDIS,10,59,0,674,2026-05-04 15:07:13.780467
+9,12,Sant Andreu,2025,novembre,el Bon Pastor,INCENDIS,11,59,0,675,2026-05-04 15:07:13.780467
+9,3,Sant Andreu,2025,desembre,el Bon Pastor,INCENDIS,12,59,0,676,2026-05-04 15:07:13.780467
+9,14,Sant Andreu,2025,gener,Sant Andreu,INCENDIS,1,60,0,677,2026-05-04 15:07:13.780467
+9,18,Sant Andreu,2025,febrer,Sant Andreu,INCENDIS,2,60,0,678,2026-05-04 15:07:13.780467
+9,14,Sant Andreu,2025,març,Sant Andreu,INCENDIS,3,60,0,679,2026-05-04 15:07:13.780467
+9,12,Sant Andreu,2025,abril,Sant Andreu,INCENDIS,4,60,0,680,2026-05-04 15:07:13.780467
+9,8,Sant Andreu,2025,maig,Sant Andreu,INCENDIS,5,60,0,681,2026-05-04 15:07:13.780467
+9,29,Sant Andreu,2025,juny,Sant Andreu,INCENDIS,6,60,0,682,2026-05-04 15:07:13.780467
+9,9,Sant Andreu,2025,juliol,Sant Andreu,INCENDIS,7,60,0,683,2026-05-04 15:07:13.780467
+9,10,Sant Andreu,2025,agost,Sant Andreu,INCENDIS,8,60,0,684,2026-05-04 15:07:13.780467
+9,13,Sant Andreu,2025,setembre,Sant Andreu,INCENDIS,9,60,0,685,2026-05-04 15:07:13.780467
+9,18,Sant Andreu,2025,octubre,Sant Andreu,INCENDIS,10,60,0,686,2026-05-04 15:07:13.780467
+9,7,Sant Andreu,2025,novembre,Sant Andreu,INCENDIS,11,60,0,687,2026-05-04 15:07:13.780467
+9,10,Sant Andreu,2025,desembre,Sant Andreu,INCENDIS,12,60,0,688,2026-05-04 15:07:13.780467
+9,6,Sant Andreu,2025,gener,la Sagrera,INCENDIS,1,61,0,689,2026-05-04 15:07:13.780467
+9,14,Sant Andreu,2025,febrer,la Sagrera,INCENDIS,2,61,0,690,2026-05-04 15:07:13.780467
+9,13,Sant Andreu,2025,març,la Sagrera,INCENDIS,3,61,0,691,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,abril,la Sagrera,INCENDIS,4,61,0,692,2026-05-04 15:07:13.780467
+9,6,Sant Andreu,2025,maig,la Sagrera,INCENDIS,5,61,0,693,2026-05-04 15:07:13.780467
+9,16,Sant Andreu,2025,juny,la Sagrera,INCENDIS,6,61,0,694,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,juliol,la Sagrera,INCENDIS,7,61,0,695,2026-05-04 15:07:13.780467
+9,5,Sant Andreu,2025,agost,la Sagrera,INCENDIS,8,61,0,696,2026-05-04 15:07:13.780467
+9,7,Sant Andreu,2025,setembre,la Sagrera,INCENDIS,9,61,0,697,2026-05-04 15:07:13.780467
+9,6,Sant Andreu,2025,octubre,la Sagrera,INCENDIS,10,61,0,698,2026-05-04 15:07:13.780467
+9,10,Sant Andreu,2025,novembre,la Sagrera,INCENDIS,11,61,0,699,2026-05-04 15:07:13.780467
+9,7,Sant Andreu,2025,desembre,la Sagrera,INCENDIS,12,61,0,700,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,gener,el Congrés i els Indians,INCENDIS,1,62,0,701,2026-05-04 15:07:13.780467
+9,1,Sant Andreu,2025,febrer,el Congrés i els Indians,INCENDIS,2,62,0,702,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,març,el Congrés i els Indians,INCENDIS,3,62,0,703,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,abril,el Congrés i els Indians,INCENDIS,4,62,0,704,2026-05-04 15:07:13.780467
+9,6,Sant Andreu,2025,maig,el Congrés i els Indians,INCENDIS,5,62,0,705,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,juny,el Congrés i els Indians,INCENDIS,6,62,0,706,2026-05-04 15:07:13.780467
+9,3,Sant Andreu,2025,juliol,el Congrés i els Indians,INCENDIS,7,62,0,707,2026-05-04 15:07:13.780467
+9,1,Sant Andreu,2025,agost,el Congrés i els Indians,INCENDIS,8,62,0,708,2026-05-04 15:07:13.780467
+9,12,Sant Andreu,2025,setembre,el Congrés i els Indians,INCENDIS,9,62,0,709,2026-05-04 15:07:13.780467
+9,2,Sant Andreu,2025,octubre,el Congrés i els Indians,INCENDIS,10,62,0,710,2026-05-04 15:07:13.780467
+9,7,Sant Andreu,2025,novembre,el Congrés i els Indians,INCENDIS,11,62,0,711,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,desembre,el Congrés i els Indians,INCENDIS,12,62,0,712,2026-05-04 15:07:13.780467
+9,7,Sant Andreu,2025,gener,Navas,INCENDIS,1,63,0,713,2026-05-04 15:07:13.780467
+9,5,Sant Andreu,2025,febrer,Navas,INCENDIS,2,63,0,714,2026-05-04 15:07:13.780467
+9,6,Sant Andreu,2025,març,Navas,INCENDIS,3,63,0,715,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,abril,Navas,INCENDIS,4,63,0,716,2026-05-04 15:07:13.780467
+9,5,Sant Andreu,2025,maig,Navas,INCENDIS,5,63,0,717,2026-05-04 15:07:13.780467
+9,11,Sant Andreu,2025,juny,Navas,INCENDIS,6,63,0,718,2026-05-04 15:07:13.780467
+9,3,Sant Andreu,2025,agost,Navas,INCENDIS,8,63,0,719,2026-05-04 15:07:13.780467
+9,4,Sant Andreu,2025,setembre,Navas,INCENDIS,9,63,0,720,2026-05-04 15:07:13.780467
+9,3,Sant Andreu,2025,octubre,Navas,INCENDIS,10,63,0,721,2026-05-04 15:07:13.780467
+9,8,Sant Andreu,2025,novembre,Navas,INCENDIS,11,63,0,722,2026-05-04 15:07:13.780467
+9,2,Sant Andreu,2025,desembre,Navas,INCENDIS,12,63,0,723,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,gener,el Camp de l'Arpa del Clot,INCENDIS,1,64,0,724,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,febrer,el Camp de l'Arpa del Clot,INCENDIS,2,64,0,725,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,març,el Camp de l'Arpa del Clot,INCENDIS,3,64,0,726,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,abril,el Camp de l'Arpa del Clot,INCENDIS,4,64,0,727,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,maig,el Camp de l'Arpa del Clot,INCENDIS,5,64,0,728,2026-05-04 15:07:13.780467
+10,16,Sant Martí,2025,juny,el Camp de l'Arpa del Clot,INCENDIS,6,64,0,729,2026-05-04 15:07:13.780467
+10,12,Sant Martí,2025,juliol,el Camp de l'Arpa del Clot,INCENDIS,7,64,0,730,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,agost,el Camp de l'Arpa del Clot,INCENDIS,8,64,0,731,2026-05-04 15:07:13.780467
+10,13,Sant Martí,2025,setembre,el Camp de l'Arpa del Clot,INCENDIS,9,64,0,732,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,octubre,el Camp de l'Arpa del Clot,INCENDIS,10,64,0,733,2026-05-04 15:07:13.780467
+10,10,Sant Martí,2025,novembre,el Camp de l'Arpa del Clot,INCENDIS,11,64,0,734,2026-05-04 15:07:13.780467
+10,13,Sant Martí,2025,desembre,el Camp de l'Arpa del Clot,INCENDIS,12,64,0,735,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,gener,el Clot,INCENDIS,1,65,0,736,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,febrer,el Clot,INCENDIS,2,65,0,737,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,març,el Clot,INCENDIS,3,65,0,738,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,abril,el Clot,INCENDIS,4,65,0,739,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,maig,el Clot,INCENDIS,5,65,0,740,2026-05-04 15:07:13.780467
+10,17,Sant Martí,2025,juny,el Clot,INCENDIS,6,65,0,741,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,juliol,el Clot,INCENDIS,7,65,0,742,2026-05-04 15:07:13.780467
+10,10,Sant Martí,2025,agost,el Clot,INCENDIS,8,65,0,743,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,setembre,el Clot,INCENDIS,9,65,0,744,2026-05-04 15:07:13.780467
+10,13,Sant Martí,2025,octubre,el Clot,INCENDIS,10,65,0,745,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,novembre,el Clot,INCENDIS,11,65,0,746,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,desembre,el Clot,INCENDIS,12,65,0,747,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,gener,el Parc i la Llacuna del Poblenou,INCENDIS,1,66,0,748,2026-05-04 15:07:13.780467
+10,14,Sant Martí,2025,febrer,el Parc i la Llacuna del Poblenou,INCENDIS,2,66,0,749,2026-05-04 15:07:13.780467
+10,14,Sant Martí,2025,març,el Parc i la Llacuna del Poblenou,INCENDIS,3,66,0,750,2026-05-04 15:07:13.780467
+10,14,Sant Martí,2025,abril,el Parc i la Llacuna del Poblenou,INCENDIS,4,66,0,751,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,maig,el Parc i la Llacuna del Poblenou,INCENDIS,5,66,0,752,2026-05-04 15:07:13.780467
+10,10,Sant Martí,2025,juny,el Parc i la Llacuna del Poblenou,INCENDIS,6,66,0,753,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,juliol,el Parc i la Llacuna del Poblenou,INCENDIS,7,66,0,754,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,agost,el Parc i la Llacuna del Poblenou,INCENDIS,8,66,0,755,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,setembre,el Parc i la Llacuna del Poblenou,INCENDIS,9,66,0,756,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,octubre,el Parc i la Llacuna del Poblenou,INCENDIS,10,66,0,757,2026-05-04 15:07:13.780467
+10,11,Sant Martí,2025,novembre,el Parc i la Llacuna del Poblenou,INCENDIS,11,66,0,758,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,desembre,el Parc i la Llacuna del Poblenou,INCENDIS,12,66,0,759,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,gener,la Vila Olímpica del Poblenou,INCENDIS,1,67,0,760,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,febrer,la Vila Olímpica del Poblenou,INCENDIS,2,67,0,761,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,març,la Vila Olímpica del Poblenou,INCENDIS,3,67,0,762,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,abril,la Vila Olímpica del Poblenou,INCENDIS,4,67,0,763,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,maig,la Vila Olímpica del Poblenou,INCENDIS,5,67,0,764,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,gener,Sant Martí de Provençals,INCENDIS,1,72,0,820,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,juny,la Vila Olímpica del Poblenou,INCENDIS,6,67,0,765,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,juliol,la Vila Olímpica del Poblenou,INCENDIS,7,67,0,766,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,agost,la Vila Olímpica del Poblenou,INCENDIS,8,67,0,767,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,setembre,la Vila Olímpica del Poblenou,INCENDIS,9,67,0,768,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,octubre,la Vila Olímpica del Poblenou,INCENDIS,10,67,0,769,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,novembre,la Vila Olímpica del Poblenou,INCENDIS,11,67,0,770,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,desembre,la Vila Olímpica del Poblenou,INCENDIS,12,67,0,771,2026-05-04 15:07:13.780467
+10,11,Sant Martí,2025,gener,el Poblenou,INCENDIS,1,68,0,772,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,febrer,el Poblenou,INCENDIS,2,68,0,773,2026-05-04 15:07:13.780467
+10,11,Sant Martí,2025,març,el Poblenou,INCENDIS,3,68,0,774,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,abril,el Poblenou,INCENDIS,4,68,0,775,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,maig,el Poblenou,INCENDIS,5,68,0,776,2026-05-04 15:07:13.780467
+10,30,Sant Martí,2025,juny,el Poblenou,INCENDIS,6,68,0,777,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,juliol,el Poblenou,INCENDIS,7,68,0,778,2026-05-04 15:07:13.780467
+10,8,Sant Martí,2025,agost,el Poblenou,INCENDIS,8,68,0,779,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,setembre,el Poblenou,INCENDIS,9,68,0,780,2026-05-04 15:07:13.780467
+10,13,Sant Martí,2025,octubre,el Poblenou,INCENDIS,10,68,0,781,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,novembre,el Poblenou,INCENDIS,11,68,0,782,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,desembre,el Poblenou,INCENDIS,12,68,0,783,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,gener,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,1,69,0,784,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,febrer,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,2,69,0,785,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,març,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,3,69,0,786,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,abril,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,4,69,0,787,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,maig,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,5,69,0,788,2026-05-04 15:07:13.780467
+10,12,Sant Martí,2025,juny,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,6,69,0,789,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,juliol,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,7,69,0,790,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,agost,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,8,69,0,791,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,febrer,Sant Martí de Provençals,INCENDIS,2,72,0,821,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,setembre,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,9,69,0,792,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,octubre,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,10,69,0,793,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,novembre,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,11,69,0,794,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,desembre,Diagonal Mar i el Front Marítim del Poblenou,INCENDIS,12,69,0,795,2026-05-04 15:07:13.780467
+10,12,Sant Martí,2025,gener,el Besòs i el Maresme,INCENDIS,1,70,0,796,2026-05-04 15:07:13.780467
+10,10,Sant Martí,2025,febrer,el Besòs i el Maresme,INCENDIS,2,70,0,797,2026-05-04 15:07:13.780467
+10,14,Sant Martí,2025,març,el Besòs i el Maresme,INCENDIS,3,70,0,798,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,abril,el Besòs i el Maresme,INCENDIS,4,70,0,799,2026-05-04 15:07:13.780467
+10,8,Sant Martí,2025,maig,el Besòs i el Maresme,INCENDIS,5,70,0,800,2026-05-04 15:07:13.780467
+10,13,Sant Martí,2025,juny,el Besòs i el Maresme,INCENDIS,6,70,0,801,2026-05-04 15:07:13.780467
+10,8,Sant Martí,2025,juliol,el Besòs i el Maresme,INCENDIS,7,70,0,802,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,agost,el Besòs i el Maresme,INCENDIS,8,70,0,803,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,setembre,el Besòs i el Maresme,INCENDIS,9,70,0,804,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,octubre,el Besòs i el Maresme,INCENDIS,10,70,0,805,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,novembre,el Besòs i el Maresme,INCENDIS,11,70,0,806,2026-05-04 15:07:13.780467
+10,16,Sant Martí,2025,desembre,el Besòs i el Maresme,INCENDIS,12,70,0,807,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,gener,Provençals del Poblenou,INCENDIS,1,71,0,808,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,febrer,Provençals del Poblenou,INCENDIS,2,71,0,809,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,març,Provençals del Poblenou,INCENDIS,3,71,0,810,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,abril,Provençals del Poblenou,INCENDIS,4,71,0,811,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,maig,Provençals del Poblenou,INCENDIS,5,71,0,812,2026-05-04 15:07:13.780467
+10,4,Sant Martí,2025,juny,Provençals del Poblenou,INCENDIS,6,71,0,813,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,juliol,Provençals del Poblenou,INCENDIS,7,71,0,814,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,agost,Provençals del Poblenou,INCENDIS,8,71,0,815,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,setembre,Provençals del Poblenou,INCENDIS,9,71,0,816,2026-05-04 15:07:13.780467
+10,8,Sant Martí,2025,octubre,Provençals del Poblenou,INCENDIS,10,71,0,817,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,novembre,Provençals del Poblenou,INCENDIS,11,71,0,818,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,desembre,Provençals del Poblenou,INCENDIS,12,71,0,819,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,març,Sant Martí de Provençals,INCENDIS,3,72,0,822,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,abril,Sant Martí de Provençals,INCENDIS,4,72,0,823,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,maig,Sant Martí de Provençals,INCENDIS,5,72,0,824,2026-05-04 15:07:13.780467
+10,6,Sant Martí,2025,juny,Sant Martí de Provençals,INCENDIS,6,72,0,825,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,juliol,Sant Martí de Provençals,INCENDIS,7,72,0,826,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,agost,Sant Martí de Provençals,INCENDIS,8,72,0,827,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,setembre,Sant Martí de Provençals,INCENDIS,9,72,0,828,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,octubre,Sant Martí de Provençals,INCENDIS,10,72,0,829,2026-05-04 15:07:13.780467
+10,10,Sant Martí,2025,novembre,Sant Martí de Provençals,INCENDIS,11,72,0,830,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,desembre,Sant Martí de Provençals,INCENDIS,12,72,0,831,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,gener,la Verneda i la Pau,INCENDIS,1,73,0,832,2026-05-04 15:07:13.780467
+10,5,Sant Martí,2025,febrer,la Verneda i la Pau,INCENDIS,2,73,0,833,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,març,la Verneda i la Pau,INCENDIS,3,73,0,834,2026-05-04 15:07:13.780467
+10,8,Sant Martí,2025,abril,la Verneda i la Pau,INCENDIS,4,73,0,835,2026-05-04 15:07:13.780467
+10,3,Sant Martí,2025,maig,la Verneda i la Pau,INCENDIS,5,73,0,836,2026-05-04 15:07:13.780467
+10,9,Sant Martí,2025,juny,la Verneda i la Pau,INCENDIS,6,73,0,837,2026-05-04 15:07:13.780467
+10,8,Sant Martí,2025,juliol,la Verneda i la Pau,INCENDIS,7,73,0,838,2026-05-04 15:07:13.780467
+10,2,Sant Martí,2025,agost,la Verneda i la Pau,INCENDIS,8,73,0,839,2026-05-04 15:07:13.780467
+10,10,Sant Martí,2025,setembre,la Verneda i la Pau,INCENDIS,9,73,0,840,2026-05-04 15:07:13.780467
+10,7,Sant Martí,2025,octubre,la Verneda i la Pau,INCENDIS,10,73,0,841,2026-05-04 15:07:13.780467
+10,8,Sant Martí,2025,novembre,la Verneda i la Pau,INCENDIS,11,73,0,842,2026-05-04 15:07:13.780467
+10,8,Sant Martí,2025,desembre,la Verneda i la Pau,INCENDIS,12,73,0,843,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,març,el Raval,EXPLOSIONS,3,1,10,844,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,maig,el Barri Gòtic,EXPLOSIONS,5,2,10,845,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,setembre,la Barceloneta,EXPLOSIONS,9,3,10,846,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,gener,"Sant Pere, Santa Caterina i la Ribera",EXPLOSIONS,1,4,10,847,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,març,"Sant Pere, Santa Caterina i la Ribera",EXPLOSIONS,3,4,10,848,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,abril,"Sant Pere, Santa Caterina i la Ribera",EXPLOSIONS,4,4,10,849,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,abril,el Fort Pienc,EXPLOSIONS,4,5,10,850,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,febrer,la Sagrada Família,EXPLOSIONS,2,6,10,851,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,març,la Sagrada Família,EXPLOSIONS,3,6,10,852,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,setembre,la Sagrada Família,EXPLOSIONS,9,6,10,853,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,gener,la Dreta de l'Eixample,EXPLOSIONS,1,7,10,854,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,juny,la Dreta de l'Eixample,EXPLOSIONS,6,7,10,855,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,desembre,la Dreta de l'Eixample,EXPLOSIONS,12,7,10,856,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,gener,l'Antiga Esquerra de l'Eixample,EXPLOSIONS,1,8,10,857,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,setembre,la Nova Esquerra de l'Eixample,EXPLOSIONS,9,9,10,858,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,febrer,Sant Antoni,EXPLOSIONS,2,10,10,859,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,maig,Sant Antoni,EXPLOSIONS,5,10,10,860,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,desembre,Sant Antoni,EXPLOSIONS,12,10,10,861,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,gener,la Marina del Prat Vermell,EXPLOSIONS,1,12,10,862,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,juny,la Marina del Prat Vermell,EXPLOSIONS,6,12,10,863,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,novembre,la Marina del Prat Vermell,EXPLOSIONS,11,12,10,864,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,setembre,la Marina de Port,EXPLOSIONS,9,13,10,865,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,gener,la Bordeta,EXPLOSIONS,1,16,10,866,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,juny,Sants,EXPLOSIONS,6,18,10,867,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,novembre,Sants,EXPLOSIONS,11,18,10,868,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,desembre,Sants,EXPLOSIONS,12,18,10,869,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,desembre,les Corts,EXPLOSIONS,12,19,10,870,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,novembre,la Maternitat i Sant Ramon,EXPLOSIONS,11,20,10,871,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,desembre,la Maternitat i Sant Ramon,EXPLOSIONS,12,20,10,872,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,gener,Sarrià,EXPLOSIONS,1,23,10,873,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,abril,les Tres Torres,EXPLOSIONS,4,24,10,874,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,juny,les Tres Torres,EXPLOSIONS,6,24,10,875,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,març,Sant Gervasi - la Bonanova,EXPLOSIONS,3,25,10,876,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,abril,Sant Gervasi - Galvany,EXPLOSIONS,4,26,10,877,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,novembre,Sant Gervasi - Galvany,EXPLOSIONS,11,26,10,878,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,maig,el Putxet i el Farró,EXPLOSIONS,5,27,10,879,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,abril,Vallcarca i els Penitents,EXPLOSIONS,4,28,10,880,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,desembre,Vallcarca i els Penitents,EXPLOSIONS,12,28,10,881,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,gener,la Salut,EXPLOSIONS,1,30,10,882,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,maig,la Vila de Gràcia,EXPLOSIONS,5,31,10,883,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,desembre,la Vila de Gràcia,EXPLOSIONS,12,31,10,884,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,gener,el Camp d'en Grassot i Gràcia Nova,EXPLOSIONS,1,32,10,885,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,maig,el Camp d'en Grassot i Gràcia Nova,EXPLOSIONS,5,32,10,886,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,novembre,Can Baró,EXPLOSIONS,11,34,10,887,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,abril,el Guinardó,EXPLOSIONS,4,35,10,888,2026-05-04 15:07:13.780467
+7,2,Horta-Guinardó,2025,juliol,el Carmel,EXPLOSIONS,7,37,10,889,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,desembre,el Carmel,EXPLOSIONS,12,37,10,890,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,març,la Vall d'Hebron,EXPLOSIONS,3,41,10,891,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,juliol,Horta,EXPLOSIONS,7,43,10,892,2026-05-04 15:07:13.780467
+7,1,Horta-Guinardó,2025,octubre,Horta,EXPLOSIONS,10,43,10,893,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,novembre,Vilapicina i la Torre Llobeta,EXPLOSIONS,11,44,10,894,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,juny,Porta,EXPLOSIONS,6,45,10,895,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,agost,Porta,EXPLOSIONS,8,45,10,896,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,juliol,Can Peguera,EXPLOSIONS,7,47,10,897,2026-05-04 15:07:13.780467
+8,1,Nou Barris,2025,octubre,la Prosperitat,EXPLOSIONS,10,52,10,898,2026-05-04 15:07:13.780467
+9,1,Sant Andreu,2025,gener,la Trinitat Vella,EXPLOSIONS,1,57,10,899,2026-05-04 15:07:13.780467
+9,1,Sant Andreu,2025,setembre,el Bon Pastor,EXPLOSIONS,9,59,10,900,2026-05-04 15:07:13.780467
+9,1,Sant Andreu,2025,març,Sant Andreu,EXPLOSIONS,3,60,10,901,2026-05-04 15:07:13.780467
+9,1,Sant Andreu,2025,octubre,Sant Andreu,EXPLOSIONS,10,60,10,902,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,gener,el Clot,EXPLOSIONS,1,65,10,903,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,juny,el Parc i la Llacuna del Poblenou,EXPLOSIONS,6,66,10,904,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,desembre,el Parc i la Llacuna del Poblenou,EXPLOSIONS,12,66,10,905,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,abril,el Poblenou,EXPLOSIONS,4,68,10,906,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,juny,el Poblenou,EXPLOSIONS,6,68,10,907,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,novembre,el Poblenou,EXPLOSIONS,11,68,10,908,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,maig,el Besòs i el Maresme,EXPLOSIONS,5,70,10,909,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,juliol,el Besòs i el Maresme,EXPLOSIONS,7,70,10,910,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,març,Provençals del Poblenou,EXPLOSIONS,3,71,10,911,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,juliol,Sant Martí de Provençals,EXPLOSIONS,7,72,10,912,2026-05-04 15:07:13.780467
+10,1,Sant Martí,2025,setembre,Sant Martí de Provençals,EXPLOSIONS,9,72,10,913,2026-05-04 15:07:13.780467
+,1,,2025,juliol,,PLUJA TORRENCIAL,7,,20,914,2026-05-04 15:07:13.780467
+,2,,2025,desembre,,PLUJA TORRENCIAL,12,,20,915,2026-05-04 15:07:13.780467
+1,2,Ciutat Vella,2025,març,el Raval,PLUJA TORRENCIAL,3,1,20,916,2026-05-04 15:07:13.780467
+1,8,Ciutat Vella,2025,maig,el Raval,PLUJA TORRENCIAL,5,1,20,917,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,juliol,el Raval,PLUJA TORRENCIAL,7,1,20,918,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,setembre,el Raval,PLUJA TORRENCIAL,9,1,20,919,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,octubre,el Raval,PLUJA TORRENCIAL,10,1,20,920,2026-05-04 15:07:13.780467
+1,3,Ciutat Vella,2025,desembre,el Raval,PLUJA TORRENCIAL,12,1,20,921,2026-05-04 15:07:13.780467
+1,3,Ciutat Vella,2025,maig,el Barri Gòtic,PLUJA TORRENCIAL,5,2,20,922,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,agost,el Barri Gòtic,PLUJA TORRENCIAL,8,2,20,923,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,setembre,el Barri Gòtic,PLUJA TORRENCIAL,9,2,20,924,2026-05-04 15:07:13.780467
+1,2,Ciutat Vella,2025,desembre,el Barri Gòtic,PLUJA TORRENCIAL,12,2,20,925,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,març,la Barceloneta,PLUJA TORRENCIAL,3,3,20,926,2026-05-04 15:07:13.780467
+1,8,Ciutat Vella,2025,juliol,la Barceloneta,PLUJA TORRENCIAL,7,3,20,927,2026-05-04 15:07:13.780467
+1,2,Ciutat Vella,2025,desembre,la Barceloneta,PLUJA TORRENCIAL,12,3,20,928,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,març,"Sant Pere, Santa Caterina i la Ribera",PLUJA TORRENCIAL,3,4,20,929,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,maig,"Sant Pere, Santa Caterina i la Ribera",PLUJA TORRENCIAL,5,4,20,930,2026-05-04 15:07:13.780467
+1,1,Ciutat Vella,2025,agost,"Sant Pere, Santa Caterina i la Ribera",PLUJA TORRENCIAL,8,4,20,931,2026-05-04 15:07:13.780467
+1,4,Ciutat Vella,2025,setembre,"Sant Pere, Santa Caterina i la Ribera",PLUJA TORRENCIAL,9,4,20,932,2026-05-04 15:07:13.780467
+2,2,Eixample,2025,agost,el Fort Pienc,PLUJA TORRENCIAL,8,5,20,933,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,desembre,el Fort Pienc,PLUJA TORRENCIAL,12,5,20,934,2026-05-04 15:07:13.780467
+2,3,Eixample,2025,maig,la Sagrada Família,PLUJA TORRENCIAL,5,6,20,935,2026-05-04 15:07:13.780467
+2,2,Eixample,2025,setembre,la Sagrada Família,PLUJA TORRENCIAL,9,6,20,936,2026-05-04 15:07:13.780467
+2,4,Eixample,2025,desembre,la Sagrada Família,PLUJA TORRENCIAL,12,6,20,937,2026-05-04 15:07:13.780467
+2,2,Eixample,2025,maig,la Dreta de l'Eixample,PLUJA TORRENCIAL,5,7,20,938,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,setembre,la Dreta de l'Eixample,PLUJA TORRENCIAL,9,7,20,939,2026-05-04 15:07:13.780467
+2,2,Eixample,2025,octubre,la Dreta de l'Eixample,PLUJA TORRENCIAL,10,7,20,940,2026-05-04 15:07:13.780467
+2,3,Eixample,2025,desembre,la Dreta de l'Eixample,PLUJA TORRENCIAL,12,7,20,941,2026-05-04 15:07:13.780467
+2,2,Eixample,2025,març,l'Antiga Esquerra de l'Eixample,PLUJA TORRENCIAL,3,8,20,942,2026-05-04 15:07:13.780467
+2,2,Eixample,2025,maig,l'Antiga Esquerra de l'Eixample,PLUJA TORRENCIAL,5,8,20,943,2026-05-04 15:07:13.780467
+2,3,Eixample,2025,desembre,l'Antiga Esquerra de l'Eixample,PLUJA TORRENCIAL,12,8,20,944,2026-05-04 15:07:13.780467
+2,4,Eixample,2025,maig,la Nova Esquerra de l'Eixample,PLUJA TORRENCIAL,5,9,20,945,2026-05-04 15:07:13.780467
+2,1,Eixample,2025,juliol,la Nova Esquerra de l'Eixample,PLUJA TORRENCIAL,7,9,20,946,2026-05-04 15:07:13.780467
+2,2,Eixample,2025,agost,la Nova Esquerra de l'Eixample,PLUJA TORRENCIAL,8,9,20,947,2026-05-04 15:07:13.780467
+2,4,Eixample,2025,desembre,la Nova Esquerra de l'Eixample,PLUJA TORRENCIAL,12,9,20,948,2026-05-04 15:07:13.780467
+2,5,Eixample,2025,maig,Sant Antoni,PLUJA TORRENCIAL,5,10,20,949,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,febrer,el Poble Sec,PLUJA TORRENCIAL,2,11,20,950,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,març,el Poble Sec,PLUJA TORRENCIAL,3,11,20,951,2026-05-04 15:07:13.780467
+3,6,Sants-Montjuïc,2025,maig,el Poble Sec,PLUJA TORRENCIAL,5,11,20,952,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,juny,el Poble Sec,PLUJA TORRENCIAL,6,11,20,953,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,juliol,el Poble Sec,PLUJA TORRENCIAL,7,11,20,954,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,agost,el Poble Sec,PLUJA TORRENCIAL,8,11,20,955,2026-05-04 15:07:13.780467
+3,5,Sants-Montjuïc,2025,setembre,el Poble Sec,PLUJA TORRENCIAL,9,11,20,956,2026-05-04 15:07:13.780467
+3,8,Sants-Montjuïc,2025,desembre,el Poble Sec,PLUJA TORRENCIAL,12,11,20,957,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,juliol,la Marina del Prat Vermell,PLUJA TORRENCIAL,7,12,20,958,2026-05-04 15:07:13.780467
+3,4,Sants-Montjuïc,2025,març,la Marina de Port,PLUJA TORRENCIAL,3,13,20,959,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,maig,la Marina de Port,PLUJA TORRENCIAL,5,13,20,960,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,agost,la Marina de Port,PLUJA TORRENCIAL,8,13,20,961,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,març,la Font de la Guatlla,PLUJA TORRENCIAL,3,14,20,962,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,octubre,Hostafrancs,PLUJA TORRENCIAL,10,15,20,963,2026-05-04 15:07:13.780467
+3,3,Sants-Montjuïc,2025,desembre,Hostafrancs,PLUJA TORRENCIAL,12,15,20,964,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,juliol,la Bordeta,PLUJA TORRENCIAL,7,16,20,965,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,novembre,la Bordeta,PLUJA TORRENCIAL,11,16,20,966,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,agost,Sants - Badal,PLUJA TORRENCIAL,8,17,20,967,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,setembre,Sants,PLUJA TORRENCIAL,9,18,20,968,2026-05-04 15:07:13.780467
+3,1,Sants-Montjuïc,2025,octubre,Sants,PLUJA TORRENCIAL,10,18,20,969,2026-05-04 15:07:13.780467
+3,2,Sants-Montjuïc,2025,desembre,Sants,PLUJA TORRENCIAL,12,18,20,970,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,maig,les Corts,PLUJA TORRENCIAL,5,19,20,971,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,agost,les Corts,PLUJA TORRENCIAL,8,19,20,972,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,desembre,les Corts,PLUJA TORRENCIAL,12,19,20,973,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,novembre,la Maternitat i Sant Ramon,PLUJA TORRENCIAL,11,20,20,974,2026-05-04 15:07:13.780467
+4,1,Les Corts,2025,agost,Pedralbes,PLUJA TORRENCIAL,8,21,20,975,2026-05-04 15:07:13.780467
+4,3,Les Corts,2025,desembre,Pedralbes,PLUJA TORRENCIAL,12,21,20,976,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,setembre,"Vallvidrera, el Tibidabo i les Planes",PLUJA TORRENCIAL,9,22,20,977,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,novembre,"Vallvidrera, el Tibidabo i les Planes",PLUJA TORRENCIAL,11,22,20,978,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,març,Sarrià,PLUJA TORRENCIAL,3,23,20,979,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,setembre,Sarrià,PLUJA TORRENCIAL,9,23,20,980,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,maig,les Tres Torres,PLUJA TORRENCIAL,5,24,20,981,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,desembre,les Tres Torres,PLUJA TORRENCIAL,12,24,20,982,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,maig,Sant Gervasi - la Bonanova,PLUJA TORRENCIAL,5,25,20,983,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,maig,Sant Gervasi - Galvany,PLUJA TORRENCIAL,5,26,20,984,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,setembre,Sant Gervasi - Galvany,PLUJA TORRENCIAL,9,26,20,985,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,desembre,Sant Gervasi - Galvany,PLUJA TORRENCIAL,12,26,20,986,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,març,el Putxet i el Farró,PLUJA TORRENCIAL,3,27,20,987,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,maig,el Putxet i el Farró,PLUJA TORRENCIAL,5,27,20,988,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,agost,el Putxet i el Farró,PLUJA TORRENCIAL,8,27,20,989,2026-05-04 15:07:13.780467
+5,1,Sarrià-Sant Gervasi,2025,octubre,el Putxet i el Farró,PLUJA TORRENCIAL,10,27,20,990,2026-05-04 15:07:13.780467
+5,2,Sarrià-Sant Gervasi,2025,desembre,el Putxet i el Farró,PLUJA TORRENCIAL,12,27,20,991,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,març,Vallcarca i els Penitents,PLUJA TORRENCIAL,3,28,20,992,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,març,el Coll,PLUJA TORRENCIAL,3,29,20,993,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,octubre,la Salut,PLUJA TORRENCIAL,10,30,20,994,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,febrer,la Vila de Gràcia,PLUJA TORRENCIAL,2,31,20,995,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,març,la Vila de Gràcia,PLUJA TORRENCIAL,3,31,20,996,2026-05-04 15:07:13.780467
+6,2,Gràcia,2025,juliol,la Vila de Gràcia,PLUJA TORRENCIAL,7,31,20,997,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,setembre,la Vila de Gràcia,PLUJA TORRENCIAL,9,31,20,998,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,novembre,la Vila de Gràcia,PLUJA TORRENCIAL,11,31,20,999,2026-05-04 15:07:13.780467
+6,1,Gràcia,2025,setembre,el Camp d'en Grassot i Gràcia Nova,PLUJA TORRENCIAL,9,32,20,1000,2026-05-04 15:07:13.780467
