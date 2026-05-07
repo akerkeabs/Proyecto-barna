@@ -25,7 +25,7 @@ limpieza AS (
         descripcio_torn AS turno,
 
         -- Detalles del Accidente
-        descripcio_causa_mediata AS causa_accidente,
+        causa AS causa_accidente,
 
         -- Metadatos de Airflow
         etl_fecha_ingesta
