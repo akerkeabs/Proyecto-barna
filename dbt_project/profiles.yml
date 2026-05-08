@@ -7,6 +7,4 @@ proyecto_accidentes:
       port: 9047
       user: "dremio"
       password: "VRjRVpUEcnKyF7i"
-      # dremio_space es la carpeta/espacio en Dremio donde dbt guardará tus vistas transformadas
-      # (Debes crear un espacio en Dremio llamado "dbt_gold" o como prefieras)
       dremio_space: "data_barna"

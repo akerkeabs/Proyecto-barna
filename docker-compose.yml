@@ -67,7 +67,7 @@ x-airflow-common:
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
     # WARNING: Use _PIP_ADDITIONAL_REQUIREMENTS option ONLY for a quick checks
     # for other purpose (development, test and especially production usage) build/extend Airflow image.
-    _PIP_ADDITIONAL_REQUIREMENTS: 'dbt-postgres deltalake boto3 s3fs pyarrow'
+    _PIP_ADDITIONAL_REQUIREMENTS: 'dbt-postgres dbt-dremio deltalake boto3 s3fs pyarrow'
     # The following line can be used to set a custom config file, stored in the local config folder
     AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
     USER_GIT: ${USER_GIT}

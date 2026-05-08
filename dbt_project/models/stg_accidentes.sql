@@ -22,6 +22,7 @@ SELECT
     CAST(hora_dia AS INTEGER) AS Hora_dia,
     descripcio_dia_setmana AS Descripcio_dia_setmana,
     descripcio_torn AS Descripcio_torn,
+    data AS Data,
 
     -- Detalles del Accidente
     causa AS Causa,

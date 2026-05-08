@@ -85,8 +85,18 @@ def clean_and_load_delta(**context):
     # d. Normalización de cabeceras
     df.columns = [str(col).strip().lower() for col in df.columns]
     df = df.loc[:, ~df.columns.duplicated()]
+    # e. Poner fecha completa
+    if set(['nk_any', 'mes_any', 'dia_mes']).issubset(df.columns):
+        df['data'] = pd.to_datetime({
+            'year': pd.to_numeric(df['nk_any'], errors='coerce'),
+            'month': pd.to_numeric(df['mes_any'], errors='coerce'),
+            'day': pd.to_numeric(df['dia_mes'], errors='coerce')
+        }, errors='coerce')
 
-    # e. Metadatos
+        # Convertimos de Timestamp a Date puro (sin horas) para Power BI
+        df['data'] = df['data'].dt.date
+
+    # f. Metadatos
     df['etl_fecha_ingesta'] = datetime.now()
 
     # ==========================================
