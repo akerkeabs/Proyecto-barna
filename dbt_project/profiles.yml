@@ -1,12 +1,12 @@
-conexion_postgres:
+proyecto_accidentes:
   target: dev
   outputs:
     dev:
-      type: postgres
-      host: postgres
-      user: airflow
-      password: airflow
-      port: 5432
-      dbname: airflow
-      schema: public
-      threads: 1
+      type: dremio
+      software_host: "dremio" 
+      port: 9047
+      user: "dremio"
+      password: "VRjRVpUEcnKyF7i"
+      # dremio_space es la carpeta/espacio en Dremio donde dbt guardará tus vistas transformadas
+      # (Debes crear un espacio en Dremio llamado "dbt_gold" o como prefieras)
+      dremio_space: "data_barna"

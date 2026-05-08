@@ -1,10 +1,6 @@
 version: 2
 
 sources:
-  - name: raw_data
-    description: "Datos crudos de accidentes cargados por Airflow"
-    database: airflow
-    schema: public
+  - name: minio_datalake
     tables:
-      - name: stg_accidentes_github
-        description: "Tabla principal unificada de accidentes"
+      - name: accidentes_delta

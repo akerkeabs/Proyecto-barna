@@ -2,7 +2,7 @@ name: 'proyecto_accidentes'
 version: '1.0.0'
 config-version: 2
 
-profile: 'conexion_postgres'
+profile: 'proyecto_accidentes'
 
 # modelos
 model-paths: ["models"]

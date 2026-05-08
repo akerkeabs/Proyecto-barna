@@ -67,7 +67,7 @@ x-airflow-common:
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
     # WARNING: Use _PIP_ADDITIONAL_REQUIREMENTS option ONLY for a quick checks
     # for other purpose (development, test and especially production usage) build/extend Airflow image.
-    _PIP_ADDITIONAL_REQUIREMENTS: 'dbt-postgres'
+    _PIP_ADDITIONAL_REQUIREMENTS: 'dbt-postgres deltalake boto3 s3fs pyarrow'
     # The following line can be used to set a custom config file, stored in the local config folder
     AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
     USER_GIT: ${USER_GIT}
@@ -77,6 +77,7 @@ x-airflow-common:
     POSTGRES_USER: ${POSTGRES_USER}
     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     POSTGRES_DB: ${POSTGRES_DB}
+    AIRFLOW__CORE__HOSTNAME_CALLABLE: 'socket.getfqdn'
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
@@ -126,16 +127,18 @@ services:
 
   mlflow:
     image: ghcr.io/mlflow/mlflow:latest
+    container_name: mlflow
     ports:
-      - "5000:5000"
+      - "5001:5000"
     env_file:
       - .env
-    depends_on:
-      postgres:
-        condition: service_healthy
+    volumes:
+      - mlflow_data:/mlflow_data
     command: >
-      sh -c "pip install psycopg2-binary && 
-      mlflow server --backend-store-uri postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB} --default-artifact-root s3://${MINIO_BUCKET_NAME}/artifacts --host 0.0.0.0"
+      mlflow server 
+      --backend-store-uri sqlite:////mlflow_data/mlflow.db 
+      --default-artifact-root s3://${MINIO_BUCKET_NAME}/artifacts 
+      --host 0.0.0.0
     environment:
       - AWS_ACCESS_KEY_ID=${MINIO_ROOT_USER}
       - AWS_SECRET_ACCESS_KEY=${MINIO_ROOT_PASSWORD}
@@ -316,7 +319,21 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+  dremio:
+      image: dremio/dremio-oss:latest
+      container_name: dremio_container
+      ports:
+        - "9047:9047"
+        - "31010:31010"
+        - "32010:32010"
+      volumes:
+        - dremio_data:/opt/dremio/data
+      depends_on:
+        - minio
+      restart: always
 
 volumes:
   postgres-db-volume:
   minio_data:
+  dremio_data:
+  mlflow_data:

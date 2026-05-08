@@ -6,6 +6,8 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
+from deltalake.writer import write_deltalake
+import pyarrow as pa
 
 MINIO_ENDPOINT = "http://minio:9000"
 ACCESS_KEY = os.getenv("MINIO_ROOT_USER", "airflow")
@@ -50,15 +52,40 @@ def extract_and_load_bronze(**context):
         print(f"Creando bucket '{BRONZE_BUCKET}'...")
         fs.mkdir(BRONZE_BUCKET)
 
-    # Guardado en Parquet
+    # ==========================================
+    # 2. GUARDADO EN FORMATO DELTA
+    # ==========================================
     ds = context['ds']
-    file_path = f"s3://{BRONZE_BUCKET}/accidentes_raw_{ds}.parquet"
+    delta_path = f"s3://{BRONZE_BUCKET}/accidentes_raw_{ds}_delta"
+    df_raw = df_raw.fillna("")
+    #quitar nombre columna duplicadas
+    df_raw.columns = [str(col).strip().lower() for col in df_raw.columns]
+    df_raw = df_raw.loc[:, ~df_raw.columns.duplicated()]
 
-    storage_options = {"key": ACCESS_KEY, "secret": SECRET_KEY, "client_kwargs": {"endpoint_url": MINIO_ENDPOINT}}
-    df_raw.to_parquet(file_path, storage_options=storage_options, index=False, engine='pyarrow')
+    df_raw = df_raw.astype(str)
+    tabla_arrow = pa.Table.from_pandas(df_raw)
 
-    print(f"Datos guardados en Bronze: {file_path}")
-    return file_path
+    # Diccionario de configuración para la librería deltalake
+    storage_options_delta = {
+        "AWS_ACCESS_KEY_ID": ACCESS_KEY,
+        "AWS_SECRET_ACCESS_KEY": SECRET_KEY,
+        "AWS_ENDPOINT_URL": MINIO_ENDPOINT,
+        "AWS_REGION": "us-east-1",
+        "AWS_ALLOW_HTTP": "true",
+        "AWS_S3_ALLOW_UNSAFE_RENAME": "true"
+    }
+
+    print("Guardando datos en formato Delta...")
+    write_deltalake(
+        table_or_uri=delta_path,
+        data=tabla_arrow,
+        mode="overwrite",
+        storage_options=storage_options_delta
+    )
+
+    print(f"Datos guardados en Bronze (Delta): {delta_path}")
+
+    return delta_path
 
 
 # =========================
@@ -69,7 +96,7 @@ with DAG(
         schedule='@daily',
         start_date=datetime(2024, 1, 1),
         catchup=False,
-        tags=['bronze', 'api'],
+        tags=['bronze', 'api', 'delta'],
 ) as dag:
     tarea_bronze = PythonOperator(
         task_id='fetch_api_to_bronze',

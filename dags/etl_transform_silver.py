@@ -1,46 +1,68 @@
 import os
 import pandas as pd
+import pyarrow as pa
 import s3fs
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
-from sqlalchemy import create_engine, text
+from deltalake.writer import write_deltalake
+from deltalake import DeltaTable
 
-
+# ==========================================
+# CONFIGURACIONES Y CONSTANTES GLOBALES
+# ==========================================
 MINIO_ENDPOINT = "http://minio:9000"
 ACCESS_KEY = os.getenv("MINIO_ROOT_USER", "airflow")
 SECRET_KEY = os.getenv("MINIO_ROOT_PASSWORD", "airflow")
-SILVER_BUCKET = "silver"
+TARGET_BUCKET = "silver"
 
-# Credenciales de la BD airflow
-POSTGRES_CREDS = "postgresql+psycopg2://airflow:airflow@postgres:5432/airflow"
+# Configuraciones de conexión a S3 compartidas para leer y escribir Delta en MinIO
+STORAGE_OPTIONS_DELTA = {
+    "AWS_ACCESS_KEY_ID": ACCESS_KEY,
+    "AWS_SECRET_ACCESS_KEY": SECRET_KEY,
+    "AWS_ENDPOINT_URL": MINIO_ENDPOINT,
+    "AWS_REGION": "us-east-1",
+    "AWS_ALLOW_HTTP": "true",
+    "AWS_S3_ALLOW_UNSAFE_RENAME": "true"
+}
 
 
-def clean_and_load_silver(**context):
+def clean_and_load_delta(**context):
+    # ==========================================
+    # 1. EXTRACCIÓN (LEER DESDE BRONZE - DELTA)
+    # ==========================================
     bronze_file_path = context['dag_run'].conf.get('bronze_file_path')
+
+    # Si el DAG se ejecuta manualmente sin configuración, usamos la ruta por defecto
     if not bronze_file_path:
-        raise ValueError("No se recibió la ruta del archivo Bronze.")
+        ds = context['ds']
+        # Usamos el sufijo _delta que definimos en el DAG anterior
+        bronze_file_path = f"s3://bronze/accidentes_raw_{ds}_delta"
+        print(f"No se recibió conf manual. Usando ruta por defecto: {bronze_file_path}")
 
     print(f"1. Leyendo datos crudos desde: {bronze_file_path}")
-    storage_options = {"key": ACCESS_KEY, "secret": SECRET_KEY, "client_kwargs": {"endpoint_url": MINIO_ENDPOINT}}
-    df = pd.read_parquet(bronze_file_path, storage_options=storage_options)
+
+    try:
+        dt = DeltaTable(bronze_file_path, storage_options=STORAGE_OPTIONS_DELTA)
+        df = dt.to_pandas()
+    except Exception as e:
+        raise ValueError(f"Error al leer la tabla Delta en MinIO ({bronze_file_path}). Detalles: {e}")
 
     # ==========================================
     # 2. LÓGICA DE LIMPIEZA
     # ==========================================
     print("2. Iniciando limpieza de datos...")
 
-    # Unificar la columna 'causa'
-    diccionario_renombres = {
-        'Descripcio_causa_mediata': 'causa',
-        'cause conductor': 'causa',
-        'causa conductor': 'causa',
-        'Descripcio_causa': 'causa'
-    }
-    df.rename(columns=diccionario_renombres, inplace=True)
+    # a. Unificar la columna 'causa'
+    columnas_causa = ['Descripcio_causa_mediata', 'cause conductor', 'causa conductor', 'Descripcio_causa']
+    cols_presentes = [col for col in columnas_causa if col in df.columns]
 
-    # Limpieza de calidad de datos
+    if cols_presentes:
+        df['causa'] = df[cols_presentes].bfill(axis=1).iloc[:, 0]
+        df = df.drop(columns=cols_presentes)
+
+    # b. Limpieza general y de calidad
     df = df.drop_duplicates()
 
     if "Nom_districte" in df.columns:
@@ -51,6 +73,7 @@ def clean_and_load_silver(**context):
         df = df[df["Codi_districte"] != -1]
         df = df.dropna(subset=["Codi_districte"])
 
+    # c. Eliminación de nulos en columnas geográficas
     geo_columns = ["Codi_districte", "Nom_districte", "Nom_barri", "Codi_barri"]
     for col in geo_columns:
         if col in df.columns:
@@ -59,36 +82,39 @@ def clean_and_load_silver(**context):
     if "Latitud_WGS84" in df.columns and "Longitud_WGS84" in df.columns:
         df = df.dropna(subset=["Latitud_WGS84", "Longitud_WGS84"])
 
-    # Todas las columnas a minúsculas para dbt
+    # d. Normalización de cabeceras
     df.columns = [str(col).strip().lower() for col in df.columns]
     df = df.loc[:, ~df.columns.duplicated()]
 
+    # e. Metadatos
     df['etl_fecha_ingesta'] = datetime.now()
 
     # ==========================================
-    # 3. BACKUP EN MINIO (Capa Silver)
+    # 3. CARGA (GUARDAR EN SILVER - DELTA)
     # ==========================================
+    print(f"3. Guardando tabla Delta limpia en el bucket '{TARGET_BUCKET}'...")
+
+    # Asegurar que el bucket Silver existe en MinIO
     fs = s3fs.S3FileSystem(key=ACCESS_KEY, secret=SECRET_KEY, client_kwargs={"endpoint_url": MINIO_ENDPOINT})
-    if not fs.exists(SILVER_BUCKET):
-        print(f"3. Creando bucket '{SILVER_BUCKET}'...")
-        fs.mkdir(SILVER_BUCKET)
+    if not fs.exists(TARGET_BUCKET):
+        fs.mkdir(TARGET_BUCKET)
 
-    ds = context['ds']
-    silver_file_path = f"s3://{SILVER_BUCKET}/accidentes_cleaned_{ds}.parquet"
-    df.to_parquet(silver_file_path, storage_options=storage_options, index=False, engine='pyarrow')
-    print(f"Backup limpio guardado en Silver: {silver_file_path}")
+    delta_table_path = f"s3://{TARGET_BUCKET}/accidentes_delta"
 
-    # ==========================================
-    # 4. CARGA EN POSTGRESQL (Para dbt)
-    # ==========================================
-    print("4. Cargando en PostgreSQL...")
-    engine = create_engine(POSTGRES_CREDS)
+    try:
+        # Convertimos el DataFrame limpio a una tabla PyArrow para resolver tipos de datos problemáticos
+        tabla_arrow = pa.Table.from_pandas(df)
 
-    with engine.begin() as conn:
-        conn.execute(text("DROP TABLE IF EXISTS stg_accidentes_github CASCADE;"))
-
-    df.to_sql('stg_accidentes_github', engine, if_exists='replace', index=False)
-    print("Carga en BD finalizada.")
+        write_deltalake(
+            table_or_uri=delta_table_path,
+            data=tabla_arrow,
+            mode="overwrite",
+            storage_options=STORAGE_OPTIONS_DELTA
+        )
+        print(f"Carga en formato Delta finalizada exitosamente en: {delta_table_path}")
+    except Exception as e:
+        print(f"Error guardando en Delta: {e}")
+        raise e
 
 
 # =========================
@@ -99,11 +125,11 @@ with DAG(
         schedule=None,
         start_date=datetime(2024, 1, 1),
         catchup=False,
-        tags=['silver', 'postgres', 'dbt'],
+        tags=['silver', 'delta', 'minio'],
 ) as dag:
-    tarea_silver = PythonOperator(
-        task_id='clean_and_load_to_postgres',
-        python_callable=clean_and_load_silver,
+    tarea_delta = PythonOperator(
+        task_id='clean_and_load_to_delta',
+        python_callable=clean_and_load_delta,
     )
 
     tarea_dbt = BashOperator(
@@ -111,4 +137,4 @@ with DAG(
         bash_command='cd /opt/airflow/dbt_project && dbt run --profiles-dir .',
     )
 
-    tarea_silver >> tarea_dbt
+    tarea_delta >> tarea_dbt
