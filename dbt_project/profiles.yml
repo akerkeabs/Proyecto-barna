@@ -8,3 +8,4 @@ proyecto_accidentes:
       user: "dremio"
       password: "VRjRVpUEcnKyF7i"
       dremio_space: "data_barna"
+      use_ssl: false
